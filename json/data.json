@@ -1,0 +1,1983 @@
+[
+    {
+      "WKT": "POINT (-43.3940522 -22.7396774)",
+      "nome": "Av. Bob Kenedy - Nova Piam",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.4734706 -22.7582545)",
+      "nome": "Biblioteca Central",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-42.65383449999999 -22.4620171)",
+      "nome": "Av. Gov. Roberto Silveira",
+      "descrição": " 229",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.2989109 -22.7494328)",
+      "nome": "Av. República do Paraguai",
+      "descrição": " 120",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.3103541 -22.7888145)",
+      "nome": "Biblioteca Municipal Governador Leonel de Moura Brizola",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.2917778 -22.599708)",
+      "nome": "Biblioteca Pública de Xerém",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1816566 -22.8046495)",
+      "nome": "Biblioteca Euclides da Cunha - Ilha do Governador",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.4317436 -22.7848376)",
+      "nome": "Biblioteca Municipal de Mesquita",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1064958 -22.7505463)",
+      "nome": "Biblioteca Municipal de Paquetá",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.23765239999999 -22.6906862)",
+      "nome": "Biblioteca Solano Trindade",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.2723701 -22.6724337)",
+      "nome": "Biblioteca Comunitária em Jardim Primavera",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1747681 -22.50767)",
+      "nome": "Biblioteca do Museu Imperial",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.2708206 -22.8422168)",
+      "nome": "Biblioteca Escolar Municipal da Penha – Álvaro Moreyra",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.2839512 -22.6850544)",
+      "nome": "Prefeitura Municipal de Duque de Caxias",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.2574334 -22.9220546)",
+      "nome": "PCRJ SME/ Biblioteca E.M do Grajaú - Clarice Lispector",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.3254264 -22.8024486)",
+      "nome": "Biblioteca Escolar Municipal do Dique – José do Lins do Rego",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.29711749999999 -22.7751592)",
+      "nome": "Biblioteca CEHC",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.2862472 -22.6335574)",
+      "nome": "UFRJ - Campus Duque de Caxias Professor Geraldo Cidade",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.2339383 -22.84201719999999)",
+      "nome": "Biblioteca Central do CCS - UFRJ",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1742503 -22.9520941)",
+      "nome": "Sistema de Bibliotecas e Informação da UFRJ - SiBI",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.2862472 -22.6335574)",
+      "nome": "UFRJ - Campus Duque de Caxias Professor Geraldo Cidade",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.2301638 -22.8595022)",
+      "nome": "Biblioteca do Centro de Tecnologia - UFRJ",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.224715 -22.9125684)",
+      "nome": "Biblioteca Central Cefet/RJ - Maracanã",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.2339383 -22.8420172)",
+      "nome": "Biblioteca Central do CCS - UFRJ",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1893162 -22.9020108)",
+      "nome": "Biblioteca do Exército Editora - BibliEx",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1742503 -22.9520941)",
+      "nome": "Sistema de Bibliotecas e Informação da UFRJ - SiBI",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1747144 -22.9532244)",
+      "nome": "Biblioteca do CFCH",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.23765239999999 -22.6906862)",
+      "nome": "Biblioteca Solano Trindade",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.2077707 -22.6159123)",
+      "nome": "BIBLIOTECA MARIA AMELIA",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.2577252 -22.6379106)",
+      "nome": "Biblioteca Azul. Vinicius De Moraes",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.3086958 -22.7555533)",
+      "nome": "Biblioteca Comunitária Clodomiro Oliveira",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.2044686 -22.9100795)",
+      "nome": "Biblioteca Euclides da Cunha",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.3051123 -22.7884171)",
+      "nome": "Biblioteca Euclides da Cunha - Unigranrio",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-41.9917532 -22.5859347)",
+      "nome": "Biblioteca municipal Carlos Drummond e Andrade",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.23765239999999 -22.69068619999999)",
+      "nome": "Biblioteca Solano Trindade",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.2298325 -22.8607526)",
+      "nome": "Biblioteca Paulo Geyer (Escola de Química)",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.2339383 -22.8420172)",
+      "nome": "Biblioteca Central do CCS - UFRJ",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1754081 -22.9097402)",
+      "nome": "Fundação Biblioteca Nacional",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1873998 -22.9044621)",
+      "nome": "Biblioteca Parque Estadual",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-42.7203482 -22.7325709)",
+      "nome": "Rua Julieta Macedo",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.68348870000001 -22.76636259999999)",
+      "nome": "Instituto de Ciências Humanas e Sociais",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.6884942 -22.7655696)",
+      "nome": "Biblioteca Central da UFRuralRJ",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.4514735 -22.7274149)",
+      "nome": "Biblioteca Comunitária União do Saber",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.47346470000001 -22.7583884)",
+      "nome": "Biblioteca Central Nair Fortes Abu-merhy",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.4737984 -22.7402605)",
+      "nome": "Biblioteca Comunitária Cantinho da Imaginação",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.37557400000001 -22.8595993)",
+      "nome": "Biblioteca ETE Visconde de Mauá",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.3856117 -22.8247624)",
+      "nome": "Biblioteca Paulo Freire",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.5537173 -22.7698658)",
+      "nome": "Biblioteca Comunitária Três Marias",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.68838400000001 -22.7658546)",
+      "nome": "Biblioteca Central",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.2339383 -22.8420172)",
+      "nome": "Biblioteca Central do CCS - UFRJ",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.2329388 -22.8587432)",
+      "nome": "Biblioteca Central do CCMN - UFRJ",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.6366529 -22.8059518)",
+      "nome": "Biblioteca do Brizolão 156",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.6546953 -22.6467783)",
+      "nome": "Biblioteca Municipal Carlos de Souza",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.6911299 -22.757038)",
+      "nome": "SEMOP - Secretaria Municipal de Segurança e Ordem pública",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.7239799 -22.5272542)",
+      "nome": "Biblioteca Municipal de Mendes",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.5614294 -22.9054455)",
+      "nome": "Biblioteca Popular Campo Grande",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.3689434 -22.8032872)",
+      "nome": "Universidade Estácio de Sá - Polo EAD SãoJoão de Meriti",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.2339383 -22.84201719999999)",
+      "nome": "Biblioteca Central do CCS - UFRJ",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.18739980000001 -22.9044621)",
+      "nome": "Biblioteca Parque Estadual",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.47159800000001 -22.72862)",
+      "nome": "Biblioteca Comunitária Professora Judith Lacaz",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.249432 -22.8864393)",
+      "nome": "Biblioteca Parque de Manguinhos",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.2306432 -22.8603034)",
+      "nome": "Biblioteca do Instituto de Matemática da UFRJ",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.2301638 -22.8595022)",
+      "nome": "Biblioteca do Centro de Tecnologia - UFRJ",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.37557539999999 -22.8596)",
+      "nome": "Biblioteca ETE Visconde de Mauá",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.32416930000001 -22.8465834)",
+      "nome": "Biblioteca Popular do Irajá João do Rio",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.3856114 -22.8247622)",
+      "nome": "Biblioteca Paulo Freire",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.4497874 -22.7477064)",
+      "nome": "Biblioteca do Sesc em Nova Iguaçu",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.32416930000001 -22.8465834)",
+      "nome": "Biblioteca Popular do Irajá João do Rio",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.37557400000001 -22.8595993)",
+      "nome": "Biblioteca ETE Visconde de Mauá",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.3187592 -22.8147458)",
+      "nome": "Biblioteca ETEJK",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.4497874 -22.7477064)",
+      "nome": "Biblioteca do Sesc em Nova Iguaçu",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.32416930000001 -22.8465834)",
+      "nome": "Biblioteca Popular do Irajá João do Rio",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.37557400000001 -22.8595993)",
+      "nome": "Biblioteca ETE Visconde de Mauá",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.2301638 -22.8595022)",
+      "nome": "Biblioteca do Centro de Tecnologia - UFRJ",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.2339383 -22.8420172)",
+      "nome": "Biblioteca Central do CCS - UFRJ",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.324358 -22.8464955)",
+      "nome": "Biblioteca Volante",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.249432 -22.8864393)",
+      "nome": "Biblioteca Parque de Manguinhos",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.2639778 -22.8514426)",
+      "nome": "Biblioteca Escolar Municipal de Olaria – João Ribeiro",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.3868833 -22.7370204)",
+      "nome": "IFRJ - Campus Belford Roxo",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.3944219 -22.7775407)",
+      "nome": "IFRJ Campus São João de Meriti",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.2301638 -22.8595022)",
+      "nome": "Biblioteca do Centro de Tecnologia - UFRJ",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1873998 -22.9044621)",
+      "nome": "Biblioteca Parque Estadual",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.0009255 -22.8193722)",
+      "nome": "Estácio",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.20129979999999 -22.8050476)",
+      "nome": "Estácio",
+      "descrição": " Ilha do Governador",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1822403 -22.9053207)",
+      "nome": "Real Gabinete Português de Leitura",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.3710114 -22.9251542)",
+      "nome": "Universidade Estácio de Sá - Campus R9 Taquara",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.3605615 -22.7767444)",
+      "nome": "Estácio",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.27177349999999 -22.8782083)",
+      "nome": "Estácio",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.3440059 -22.8318859)",
+      "nome": "Estácio de Sá",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.04612600000001 -22.823865)",
+      "nome": "Estácio",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.0009255 -22.8193722)",
+      "nome": "Estácio",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.2012998 -22.8050476)",
+      "nome": "Estácio",
+      "descrição": " Ilha do Governador",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.27177349999999 -22.8782083)",
+      "nome": "Estácio",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.0130416 -22.8146695)",
+      "nome": "Universidade Salgado de Oliveira",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.0385895 -22.8195686)",
+      "nome": "Sesc São Gonçalo",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1160238 -22.8727436)",
+      "nome": "Biblioteca Popular Municipal Silvestre Mônaco",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.12205480000001 -22.8984134)",
+      "nome": "Sesc Niterói",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.0036321 -22.8058319)",
+      "nome": "Biblioteca Comunitária Visconde de Sabugosa",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.0113207 -22.81915499999999)",
+      "nome": "Biblioteca de SG",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1170788 -22.894445)",
+      "nome": "Biblioteca Parque de Niterói",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1327349 -22.9055233)",
+      "nome": "Biblioteca da Engenharia",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.13380590000001 -22.8978509)",
+      "nome": "UFF - Biblioteca Central do Gragoatá",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.18739980000001 -22.9044621)",
+      "nome": "Biblioteca Parque Estadual",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.3424476 -22.8761601)",
+      "nome": "Sesc Madureira",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.20960599999999 -22.1172565)",
+      "nome": "Teatro Celso Peçanha",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-42.62372389999999 -22.7105422)",
+      "nome": "Biblioteca de Rio Bonito",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.18739980000001 -22.9044621)",
+      "nome": "Biblioteca Parque Estadual",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-42.5381703 -22.7895332)",
+      "nome": "Centro Cultural B. Lopes",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-42.6448756 -22.7102627)",
+      "nome": "Polo CEDERJ Rio Bonito",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-42.62372389999999 -22.7105422)",
+      "nome": "Biblioteca de Rio Bonito",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-42.6896068 -22.5596369)",
+      "nome": "Biblioteca De Japuíba",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-42.8589563 -22.7448077)",
+      "nome": "Biblioteca Municipal Joaquim Manuel de Macedo",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.53455739999999 -22.7062275)",
+      "nome": "Biblioteca Comunitária Paulo Sacramento",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.6366812 -22.8059245)",
+      "nome": "Biblioteca do Brizolão 156",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.5637953 -22.720755)",
+      "nome": "CEU - Centro de Artes e Esportes Unificados",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.4737984 -22.7402605)",
+      "nome": "Biblioteca Comunitária Cantinho da Imaginação",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.5568811 -22.7155926)",
+      "nome": "Universidade Estácio de Sá",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.192114 -22.5243536)",
+      "nome": "Biblioteca Frei Constantino Koser",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1844264 -22.510821)",
+      "nome": "Universidade Católica de Petrópolis",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.16759589999999 -22.5071105)",
+      "nome": "Universidade Católica de Petrópolis",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.2077707 -22.6159123)",
+      "nome": "BIBLIOTECA MARIA AMELIA",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1668829 -22.5070338)",
+      "nome": "Biblioteca UCP",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1747681 -22.50767)",
+      "nome": "Biblioteca do Museu Imperial",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.192114 -22.5243536)",
+      "nome": "Biblioteca Frei Constantino Koser",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1844264 -22.510821)",
+      "nome": "Universidade Católica de Petrópolis",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.2077707 -22.6159123)",
+      "nome": "BIBLIOTECA MARIA AMELIA",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1378189 -22.4096941)",
+      "nome": "Biblioteca Amarela",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1668829 -22.5070338)",
+      "nome": "Biblioteca UCP",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1747681 -22.50767)",
+      "nome": "Biblioteca do Museu Imperial",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.192114 -22.5243536)",
+      "nome": "Biblioteca Frei Constantino Koser",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1378189 -22.4096941)",
+      "nome": "Biblioteca Amarela",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1774414 -22.5075956)",
+      "nome": "Centro de Cultura Raul de Leoni",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1776109 -22.512176)",
+      "nome": "IvanLimaFotografiaworkshops",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.19241969999999 -22.5238596)",
+      "nome": "Instituto Teológico Franciscano",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1747671 -22.507672)",
+      "nome": "Biblioteca do Museu Imperial",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1668829 -22.5070338)",
+      "nome": "Biblioteca UCP",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1327239 -22.9055304)",
+      "nome": "UFF - Biblioteca da Escola de Engenharia e do Instituto de Computação",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.2073645 -22.53255090000001)",
+      "nome": "Universidade Federal Fluminense - Campus Petrópolis",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1269517 -22.90153390000001)",
+      "nome": "UFF - Biblioteca da Faculdade de Direito",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.2298325 -22.8607526)",
+      "nome": "Biblioteca Paulo Geyer (Escola de Química)",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.178254 -22.5116319)",
+      "nome": "Centro Federal de Educação Tecnológica Celso Suckow da Fonseca",
+      "descrição": " Campus Petrópolis",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1677534 -22.5071552)",
+      "nome": "Escola de Música UCP",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.18739980000001 -22.9044621)",
+      "nome": "Biblioteca Parque Estadual",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.22437420000001 -22.912339)",
+      "nome": "Biblioteca CEH/A - UERJ: Educação",
+      "descrição": " Comunicação",
+      "FIELD4": " Psicologia e Nutrição",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.18739980000001 -22.9044621)",
+      "nome": "Biblioteca Parque Estadual",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.232268 -22.9787838)",
+      "nome": "Biblioteca Cardeal Frings",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1747671 -22.507672)",
+      "nome": "Biblioteca do Museu Imperial",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.192114 -22.5243536)",
+      "nome": "Biblioteca Frei Constantino Koser",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.2598034 -22.6485348)",
+      "nome": "CVT Biblioteca - Parque Paulista",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.23765239999999 -22.6906862)",
+      "nome": "Biblioteca Solano Trindade",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1668829 -22.5070338)",
+      "nome": "Biblioteca UCP",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.2077707 -22.6159123)",
+      "nome": "BIBLIOTECA MARIA AMELIA",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.7055169 -22.5998785)",
+      "nome": "FAETERJ - Faculdade de Educação Tecnológica do Estado do Rio de Janeiro (Campus Paracambi)",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.2322137 -22.9788653)",
+      "nome": "Biblioteca Cardeal Frings",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.2301638 -22.8595022)",
+      "nome": "Biblioteca do Centro de Tecnologia - UFRJ",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.3260082 -22.8935043)",
+      "nome": "FAETERJ RIO - Faculdade de Educação Tecnológica do Estado do Rio de Janeiro (Campus Quintino)",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.70968999999999 -22.6066513)",
+      "nome": "UniCesumar - Paracambi",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.70583380000001 -22.5997023)",
+      "nome": "Instituto Federal do Rio de Janeiro - Campus Paracambi",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.7062092 -22.5995894)",
+      "nome": "ETE PARACAMBI (FAETEC)",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.7060554 -22.601656)",
+      "nome": "FAETEC Fundação Apoio Escola Tec Rio de Janeiro",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.4503706 -22.7613059)",
+      "nome": "Biblioteca Municipal Cial Brito",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.4514797 -22.7274194)",
+      "nome": "Biblioteca Comunitária União do Saber",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.4497874 -22.7477064)",
+      "nome": "Biblioteca do Sesc em Nova Iguaçu",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.47160239999999 -22.7286075)",
+      "nome": "Biblioteca Comunitária Professora Judith Lacaz",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.4734706 -22.7582545)",
+      "nome": "Biblioteca Central",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.4734706 -22.7582545)",
+      "nome": "Biblioteca Central",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.4420952 -22.7517623)",
+      "nome": "UNIABEU - Nova Iguaçu",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.42807450000001 -22.7611497)",
+      "nome": "Estácio - Nova Iguaçu",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.459098 -22.7426829)",
+      "nome": "Instituto Multidisciplinar - IM/UFRRJ",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.47346470000001 -22.7583884)",
+      "nome": "Biblioteca Central Nair Fortes Abu-merhy",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.4464824 -22.7422054)",
+      "nome": "Biblioteca Comunitária e Projeto Ciranda Vicentina",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.4843221 -22.7493216)",
+      "nome": "Biblioteca Comunitária Maria Thereza Ramos",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.4772656 -22.7324038)",
+      "nome": "Biblioteca Dona Curujinha",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.4497874 -22.7477064)",
+      "nome": "Biblioteca do Sesc em Nova Iguaçu",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.4503706 -22.7613059)",
+      "nome": "Biblioteca Municipal Cial Brito",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.4734706 -22.7582545)",
+      "nome": "Biblioteca Central",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.495465 -22.7534729)",
+      "nome": "Biblioteca Comunitaria Palavras Do Bairro",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.12106989999999 -22.8938175)",
+      "nome": "Biblioteca Racional",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1327349 -22.9055233)",
+      "nome": "Biblioteca da Engenharia",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.0974805 -22.8638559)",
+      "nome": "Biblioteca da Prefeitura de Niterói",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1209594 -22.8920349)",
+      "nome": "Biblioteca Popular Municipal Cora Coralina",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.12695910000001 -22.9015332)",
+      "nome": "UFF - Biblioteca da Faculdade de Direito",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1170788 -22.894445)",
+      "nome": "Biblioteca Parque de Niterói",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.0987897 -22.9048806)",
+      "nome": "UFF - Biblioteca da Faculdade de Veterinária",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.13380590000001 -22.8978509)",
+      "nome": "UFF - Biblioteca Central do Gragoatá",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1249091 -22.8973659)",
+      "nome": "UFF - Biblioteca de Nutrição e Odontologia",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1170788 -22.894445)",
+      "nome": "Biblioteca Parque de Niterói",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1084538 -22.9037663)",
+      "nome": "Biblioteca Popular Municipal Anisio Teixeira",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1310884 -22.9017318)",
+      "nome": "Biblioteca Tia Dacal",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1209594 -22.8920349)",
+      "nome": "Biblioteca Popular Municipal Cora Coralina",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.121085 -22.893683)",
+      "nome": "Biblioteca Racional",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1326679 -22.9056329)",
+      "nome": "Biblioteca da Engenharia",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.0974805 -22.8638559)",
+      "nome": "Biblioteca da Prefeitura de Niterói",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1337592 -22.8976802)",
+      "nome": "Superintendência de Documentação - SDC",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1339262 -22.89766000000001)",
+      "nome": "UFF - Centro de Memória Fluminense",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1330806 -22.897821)",
+      "nome": "UFF - Biblioteca da Faculdade de Economia",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.13380590000001 -22.8978509)",
+      "nome": "UFF - Biblioteca Central do Gragoatá",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.12695910000001 -22.9015332)",
+      "nome": "UFF - Biblioteca da Faculdade de Direito",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.12575619999999 -22.8966268)",
+      "nome": "UFF - Biblioteca Central do Valonguinho",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1327239 -22.9055304)",
+      "nome": "UFF - Biblioteca da Escola de Engenharia e do Instituto de Computação",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1337592 -22.8976802)",
+      "nome": "Superintendência de Documentação - SDC",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.2306432 -22.8603034)",
+      "nome": "Biblioteca do Instituto de Matemática da UFRJ",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1330806 -22.897821)",
+      "nome": "UFF - Biblioteca da Faculdade de Economia",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1742503 -22.9520941)",
+      "nome": "Sistema de Bibliotecas e Informação da UFRJ - SiBI",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.2301638 -22.8595022)",
+      "nome": "Biblioteca do Centro de Tecnologia - UFRJ",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.2329388 -22.8587432)",
+      "nome": "Biblioteca Central do CCMN - UFRJ",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1331388 -22.8976249)",
+      "nome": "UFF - Bloco G (Instituto de Matemática e Estatística)",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1264318 -22.89898059999999)",
+      "nome": "UFF - Instituto Biomédico",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.12695910000001 -22.9015332)",
+      "nome": "UFF - Biblioteca da Faculdade de Direito",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1249091 -22.8973659)",
+      "nome": "UFF - Biblioteca de Administração e Ciências Contábeis",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1327239 -22.9055304)",
+      "nome": "UFF - Biblioteca da Escola de Engenharia e do Instituto de Computação",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.233298 -22.8569979)",
+      "nome": "Biblioteca do PPGG - UFRJ",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.12576560000001 -22.8965324)",
+      "nome": "UFF - Biblioteca Central do Valonguinho",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.13380590000001 -22.8978509)",
+      "nome": "UFF - Biblioteca Central do Gragoatá",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1330806 -22.897821)",
+      "nome": "UFF - Biblioteca da Faculdade de Economia",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1336609 -22.9058817)",
+      "nome": "Instituto de Geociências (EGG) da Universidade Federal Fluminense (UFF)",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1257965 -22.897882)",
+      "nome": "Universidade Federal Fluminense - Campus Valonguinho",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1249157 -22.8974342)",
+      "nome": "UFF - Biblioteca de Nutrição e Odontologia",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1249157 -22.8974342)",
+      "nome": "UFF - Biblioteca de Administração e Ciências Contábeis",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.0987897 -22.90488059999999)",
+      "nome": "UFF - Biblioteca da Faculdade de Veterinária",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.0987897 -22.90488059999999)",
+      "nome": "UFF - Biblioteca da Faculdade de Veterinária",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.12695910000001 -22.9015332)",
+      "nome": "UFF - Biblioteca da Faculdade de Direito",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1327239 -22.9055304)",
+      "nome": "UFF - Biblioteca da Escola de Engenharia e do Instituto de Computação",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.11253190000001 -22.8952503)",
+      "nome": "UFF - Faculdade de Medicina",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1695864 -22.9545697)",
+      "nome": "UNIRIO - Biblioteca Central",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1742503 -22.9520941)",
+      "nome": "Sistema de Bibliotecas e Informação da UFRJ - SiBI",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.0982935 -22.9056015)",
+      "nome": "UFF - Faculdade de Veterinária",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1264318 -22.8989806)",
+      "nome": "UFF - Instituto Biomédico",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1326475 -22.8986427)",
+      "nome": "UFF - Bloco F (Faculdade de Economia)",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.2339383 -22.8420172)",
+      "nome": "Biblioteca Central do CCS - UFRJ",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.2340392 -22.8427845)",
+      "nome": "Biblioteca da Faculdade de Farmácia UFRJ",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.2251716 -22.8615344)",
+      "nome": "Biblioteca da Faculdade de Letras UFRJ. Biblioteca José de Alencar",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.12695910000001 -22.9015332)",
+      "nome": "UFF - Biblioteca da Faculdade de Direito",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.2350444 -22.8428432)",
+      "nome": "Faculdade de Farmácia - UFRJ",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.0920146 -22.9044016)",
+      "nome": "UFF - Faculdade de Farmácia",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.0987897 -22.9048806)",
+      "nome": "UFF - Biblioteca da Faculdade de Veterinária",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1330806 -22.897821)",
+      "nome": "UFF - Biblioteca da Faculdade de Economia",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.2298325 -22.8607526)",
+      "nome": "Biblioteca Paulo Geyer (Escola de Química)",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.2375123 -22.8421991)",
+      "nome": "Biblioteca - Hospital Universitário UFRJ",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.2301638 -22.8595022)",
+      "nome": "Biblioteca do Centro de Tecnologia - UFRJ",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1330806 -22.897821)",
+      "nome": "UFF - Biblioteca da Faculdade de Economia",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1269517 -22.90153390000001)",
+      "nome": "UFF - Biblioteca da Faculdade de Direito",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1327239 -22.9055304)",
+      "nome": "UFF - Biblioteca da Escola de Engenharia e do Instituto de Computação",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.12575619999999 -22.8966268)",
+      "nome": "UFF - Biblioteca Central do Valonguinho",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.13380590000001 -22.8978509)",
+      "nome": "UFF - Biblioteca Central do Gragoatá",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.12575619999999 -22.8966268)",
+      "nome": "UFF - Biblioteca Central do Valonguinho",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.12695910000001 -22.9015332)",
+      "nome": "UFF - Biblioteca da Faculdade de Direito",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1326679 -22.9056329)",
+      "nome": "Biblioteca da Engenharia",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.13380590000001 -22.8978509)",
+      "nome": "UFF - Biblioteca Central do Gragoatá",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1249091 -22.8973659)",
+      "nome": "UFF - Biblioteca de Administração e Ciências Contábeis",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1160281 -22.8727356)",
+      "nome": "Biblioteca Popular Municipal Silvestre Mônaco",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1327239 -22.9055304)",
+      "nome": "UFF - Biblioteca da Escola de Engenharia e do Instituto de Computação",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.092065 -22.8783724)",
+      "nome": "Biblioteca Popular Municipal Agnaldo Pereira de Macedo",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1249091 -22.8973659)",
+      "nome": "UFF - Biblioteca de Nutrição e Odontologia",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1330806 -22.897821)",
+      "nome": "UFF - Biblioteca da Faculdade de Economia",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1170788 -22.894445)",
+      "nome": "Biblioteca Parque de Niterói",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.121085 -22.893683)",
+      "nome": "Biblioteca Racional",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.4497874 -22.7477064)",
+      "nome": "Biblioteca do Sesc em Nova Iguaçu",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.0036217 -22.8058603)",
+      "nome": "Biblioteca Comunitária Visconde de Sabugosa",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.2417323 -22.9243171)",
+      "nome": "Sesc Tijuca",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.12205480000001 -22.8984134)",
+      "nome": "Sesc Niterói",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1170788 -22.894445)",
+      "nome": "Biblioteca Parque de Niterói",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.102706 -22.9355041)",
+      "nome": "Biblioteca Municipal de Jurujuba",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1209468 -22.8921327)",
+      "nome": "Biblioteca Popular Municipal Cora Coralina",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1084538 -22.9037663)",
+      "nome": "Biblioteca Popular Municipal Anisio Teixeira",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.0920593 -22.8783725)",
+      "nome": "Biblioteca Popular Municipal Agnaldo Pereira de Macedo",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.0974584 -22.8643341)",
+      "nome": "Biblioteca Popular Municipal Monteiro Lobato",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.125388 -22.9037136)",
+      "nome": "Museu do Ingá - Museu de História e Arte do Estado do Rio de Janeiro",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1170788 -22.894445)",
+      "nome": "Biblioteca Parque de Niterói",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1343198 -22.88255089999999)",
+      "nome": "Centro de Auxílios à Navegação Almirante Moraes Rego - CAMR",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1084538 -22.9037663)",
+      "nome": "Biblioteca Popular Municipal Anisio Teixeira",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.13328989999999 -22.8739844)",
+      "nome": "Centro de Instrução e Adestramento Almirante Áttila Monteiro Aché",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1808237 -22.8996861)",
+      "nome": "Biblioteca da Marinha",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1334776 -22.8847897)",
+      "nome": "Centro de Hidrografia da Marinha",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1822403 -22.9053207)",
+      "nome": "Real Gabinete Português de Leitura",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1790752 -22.8985275)",
+      "nome": "Centro da Memória da Eletricidade no Brasil",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1748519 -22.9002533)",
+      "nome": "Espaço Cultural da Marinha",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.2227229 -22.9121344)",
+      "nome": "Biblioteca do IBGE",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1715806 -22.9103147)",
+      "nome": "Biblioteca do Instituto Francês do Brasil",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1688354 -22.907946)",
+      "nome": "Biblioteca Daniel Aarão Reis - Instituto dos Advogados Brasileiros",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1782811 -22.9122397)",
+      "nome": "Centro Cultural Casa da FEB Força Expedicionária Brasileira",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.1302759 -22.8984885)",
+      "nome": "Faculdade Maria Thereza",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    },
+    {
+      "WKT": "POINT (-43.2234737 -22.8625345)",
+      "nome": "Universidade Federal do Rio de Janeiro",
+      "descrição": "",
+      "FIELD4": "",
+      "FIELD5": ""
+    }
+]

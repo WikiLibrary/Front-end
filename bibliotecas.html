@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bibliotecas.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://unpkg.com/jwt-decode/build/jwt-decode.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <title>WikiLibrary</title>
-    <script src="./js/script.js"></script>
 </head>
 <body>
     <header>
@@ -28,7 +28,75 @@
         </nav>
     </header>
     <section>
-        <h1>bibliotecas</h1>
-    </section>
+        <h1>Bibliotecas</h1>
+        <div style="display: flex; margin-bottom: 40px;">
+            <div class="lista-bibliotecas">
+                <div>
+                    <h2>Bibliotecas encontradas</h2>
+                </div>
+                <div class="item-lista-bibliotecas">
+                    <img src="https://matriculas.estacio.br/blog/wp-content/uploads/2020/05/29est-biblioteca.jpg" alt="">
+                    <div>
+                        <p><b>Biblioteca Pública Mário Lago</b></p>
+                        <p>1500 Livros - 350 de Registros publicados</p>
+                        <span>
+                            <p>Rua Julieta Macedo, s/nº, Centro, Tanguá</p>
+                            <p><b>Prefeitura Municipal de Tanguá</b></p>
+                        </span>
+                    </div>
+                </div>
+                <div class="item-lista-bibliotecas">
+                    <img src="https://matriculas.estacio.br/blog/wp-content/uploads/2020/05/29est-biblioteca.jpg" alt="">
+                    <div>
+                        <p><b>Biblioteca Pública Mário Lago</b></p>
+                        <p>1500 Livros - 350 de Registros publicados</p>
+                        <span>
+                            <p>Rua Julieta Macedo, s/nº, Centro, Tanguá</p>
+                            <p><b>Prefeitura Municipal de Tanguá</b></p>
+                        </span>
+                    </div>
+                </div>
+                <div class="item-lista-bibliotecas">
+                    <img src="https://matriculas.estacio.br/blog/wp-content/uploads/2020/05/29est-biblioteca.jpg" alt="">
+                    <div>
+                        <p><b>Biblioteca Pública Mário Lago</b></p>
+                        <p>1500 Livros - 350 de Registros publicados</p>
+                        <span>
+                            <p>Rua Julieta Macedo, s/nº, Centro, Tanguá</p>
+                            <p><b>Prefeitura Municipal de Tanguá</b></p>
+                        </span>
+                    </div>
+                </div>
+                <div class="item-lista-bibliotecas">
+                    <img src="https://matriculas.estacio.br/blog/wp-content/uploads/2020/05/29est-biblioteca.jpg" alt="">
+                    <div>
+                        <p><b>Biblioteca Pública Mário Lago</b></p>
+                        <p>1500 Livros - 350 de Registros publicados</p>
+                        <span>
+                            <p>Rua Julieta Macedo, s/nº, Centro, Tanguá</p>
+                            <p><b>Prefeitura Municipal de Tanguá</b></p>
+                        </span>
+                    </div>
+                </div>
+                <div class="item-lista-bibliotecas">
+                    <img src="https://matriculas.estacio.br/blog/wp-content/uploads/2020/05/29est-biblioteca.jpg" alt="">
+                    <div>
+                        <p><b>Biblioteca Pública Mário Lago</b></p>
+                        <p>1500 Livros - 350 de Registros publicados</p>
+                        <span>
+                            <p>Rua Julieta Macedo, s/nº, Centro, Tanguá</p>
+                            <p><b>Prefeitura Municipal de Tanguá</b></p>
+                        </span>
+                    </div>
+                </div>
+                <div class="paginacao">
+                    <button id="anterior" disabled>&lsaquo; Anterior</button>
+                        <span id="numeracao">1 de 3</span>
+                    <button id="proximo" disabled>Próximo &rsaquo;</button>
+                </div>
+            </div>
+            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=16EH-Zv7_e1M32cw8wwZxCvYMElwVTMI&ehbc=2E312F" width="50%" height="auto"></iframe>    </section>
+        </div>
 </body>
+<script src="./js/script.js"></script>
 </html>

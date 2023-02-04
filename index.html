@@ -8,8 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/jwt-decode/build/jwt-decode.js"></script>
     <title>WikiLibrary</title>
-    <script src="./js/script.js"></script>
 </head>
 <body>
     <header>
@@ -74,15 +74,15 @@
             <div class="photo-porfile">
                 <h3>Perfil</h3>
                 <div style="display: flex; justify-content: center;">
-                    <img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80" alt="">
+                    <img id="fotoPerfil"src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80" alt="">
                 </div>
                 <div class="info-perfil">
-                    <h3>Nanci Simão da Rocha</h3>
+                    <h3 id="nomePerfil">Nanci Simão da Rocha</h3>
                     <hr>
                     <p><b>Email</b></p>
-                    <p>nancisrocha@gmail.com</p>
+                    <p id="emailPerfil">nancisrocha@gmail.com</p>
                     <p><b>Telefone</b></p>
-                    <p>(11)1234-5678</p>
+                    <p id="telefonePerfil">(11)1234-5678</p>
                 </div>
                 <div class="postagem">
                     <h3>Notificação</h3>
@@ -95,4 +95,5 @@
         </div>
     </section>
 </body>
+<script src="./js/script.js"></script>
 </html>
