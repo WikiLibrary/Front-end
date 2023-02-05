@@ -1,3 +1,5 @@
+const { getFirestore, collection, getDocs } = 'firebase/firestore/lite';
+
 function loginPage(params) {
     window.location.href = './login.html'
 }
@@ -15,3 +17,9 @@ if(localStorage.getItem('user') == null){
   document.getElementById('nomePerfil').innerHTML = jwt_decode(localStorage.getItem('user')).name
   document.getElementById('emailPerfil').innerHTML = jwt_decode(localStorage.getItem('user')).email
 }
+  const db = getFirestore(app); 
+  const citiesCol = collection(db, 'bibliotecas');
+  console.log(citiesCol)
+  // const citySnapshot = getDocs(citiesCol);
+  // const cityList = citySnapshot.docs.map(doc => doc.data());
+  // return cityList;

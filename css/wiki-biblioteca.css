@@ -249,7 +249,6 @@ hr{
 }
 
 .lista-bibliotecas{
-    background: #FBD2EA;
     border-radius: 20px;
     margin: 40px;
     margin-top: 0px;
@@ -315,4 +314,21 @@ p{
 
 span p{
     color: #4A6ECA
+}
+
+.lista-bibliotecas img{
+     object-fit: cover;  
+     height: 250px;
+     width: 100%;
+     border-radius: 20px;
+}
+
+li{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+li img{
+    padding: 5px;
 }
