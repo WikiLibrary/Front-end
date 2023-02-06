@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/jwt-decode/build/jwt-decode.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
     <title>WikiLibrary</title>
 </head>
 <body>
@@ -52,22 +54,25 @@
                 <p>Adicionar Nova Postagem</p>
                 <button><img src="./img/add.svg" alt=""></button>
             </div>
-            <div class="postagem">
-               <h2>Atualização para a Lista de Bibliotecas do Brasil 2022</h2>
-               <div style="display: flex; justify-content: space-between; margin-bottom: 30px; margin-top: 30px;">
-                <div style="display: flex;">
-                    <img src="./img/unnamed.jpg" alt="">
-                    <div>
-                        <p><b>Giovana</b></p>
-                        <p>Ter. 17 de Jan. 00:47</p>
+            <div style="overflow: scroll; height: 600px; padding: 25px; padding-top: 0px;" id="listPosts">
+                <div class="postagem">
+                <h2>Atualização para a Lista de Bibliotecas do Brasil 2022</h2>
+                <div style="display: flex; justify-content: space-between; margin-bottom: 30px; margin-top: 30px;">
+                    <div style="display: flex;">
+                        <img src="./img/unnamed.jpg" alt="">
+                        <div>
+                            <p><b>T</b></p>
+                            <p>Ter. 17 de Jan. 00:47</p>
+                        </div>
                     </div>
+                    <span>
+                        <p>Atualização</p>
+                    </span>
                 </div>
-                <span>
-                    <p>Atualização</p>
-                </span>
-               </div>
-               <p style="font-size: 15px; line-height: 18px;">Comunicamos que foi feita a atualização do WikiLibrary para a Lista de Bibliotecas das Regiões de Duque de Caxias.
-                Desta forma, novos acervos e locais foram incluídos e outros foram unificados, o que pode impactar nas est ... Ler mais sobre</p>
+                <p style="font-size: 15px; line-height: 18px;">Comunicamos que foi feita a atualização do WikiLibrary para a Lista de Bibliotecas das Regiões de Duque de Caxias.
+                    Desta forma, novos acervos e locais foram incluídos e outros foram unificados, o que pode impactar nas est ... Ler mais sobre</p>
+                </div>
+                <h4>Não a mais postagens novas</h4>
             </div>
         </div>
         <div class="perfil">
@@ -95,5 +100,6 @@
         </div>
     </section>
 </body>
+<script src="./js/firebase.js"></script>
 <script src="./js/script.js"></script>
 </html>

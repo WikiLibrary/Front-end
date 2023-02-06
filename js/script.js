@@ -1,5 +1,3 @@
-const { getFirestore, collection, getDocs } = 'firebase/firestore/lite';
-
 function loginPage(params) {
     window.location.href = './login.html'
 }
@@ -17,9 +15,51 @@ if(localStorage.getItem('user') == null){
   document.getElementById('nomePerfil').innerHTML = jwt_decode(localStorage.getItem('user')).name
   document.getElementById('emailPerfil').innerHTML = jwt_decode(localStorage.getItem('user')).email
 }
-  const db = getFirestore(app); 
-  const citiesCol = collection(db, 'bibliotecas');
-  console.log(citiesCol)
-  // const citySnapshot = getDocs(citiesCol);
-  // const cityList = citySnapshot.docs.map(doc => doc.data());
-  // return cityList;
+
+var Post = firebase.database().ref('postagens');
+console.log(Post)
+function listPosts() {
+ Post.on('value', function (r) {
+    let html = '';
+    function logArrayElements(item, index) {
+            console.log(item.Comments.length)
+            let itemSpan = ''
+            item.Tags.map(function (itemTag) {
+              itemSpan += `<span>
+                <p>${itemTag}</p>
+              </span>`
+            })
+            console.log(item)
+            html += `<div class="postagem">
+            <h2>${item.title}</h2>
+            <div style="display: flex; justify-content: space-between; margin-bottom: 30px; margin-top: 30px;">
+                <div style="display: flex;">
+                    <img src="./img/unnamed.jpg" alt="">
+                    <div>
+                        <p><b>${item.user}</b></p>
+                        <p>${item.uptadeAt}</p>
+                    </div>
+                </div>
+                <div style="display: flex">
+                    ${itemSpan}
+                </div>
+            </div>
+            <p style="font-size: 15px; line-height: 18px;">${item.TextPost}</p>
+            <div style="display: flex; justify-content: space-between; margin-top: 25px; align-items: center;">
+              <div class="buttonPosts">
+                <button><img src="./img/bookmark.png" label="bookmark"></button>
+                <button><img src="./img/chat.png" label="bookmark"><p>Comentar</p></button>
+              </div>
+              <div>
+                <p>${item.Comments.length} Comentarios</p>
+              </div>
+            </div>
+            </div>`
+            $('#listPosts').html(html);
+        }
+  r.val().forEach(logArrayElements);
+  console.log(html)
+});
+}
+
+listPosts()
