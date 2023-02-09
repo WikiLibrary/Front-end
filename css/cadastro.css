@@ -33,22 +33,37 @@ body{
 }
 
 section{
-    display: flex;
-    justify-content: center;
-}
-
-h1{
-    text-align: start
-}
-
-.contentSection{
     background-color: white;
     height: 100%;
-    width: 60%;
     margin: 50px;
     background: rgba(255, 245, 245, 0.74);
     box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.1);
     border-radius: 25px;
+}
+
+h1{
+    text-align: center;
+    padding: 80px;
+}
+
+.login-content{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 40px
+}
+
+input{
+    height: 51px;
+    border: none;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+label{
+    color: #3D3D3D;
+    margin-bottom: 8px;
+    margin-top: 20px;
 }
 
 .menu .button-menu{
@@ -140,7 +155,6 @@ section li{
     align-items: center;
     padding: 21px;
     margin-top: 20px;
-    margin-bottom: 20px;
     font-family: 'Inter';
     box-shadow: 6px 6px 13px rgba(0, 0, 0, 0.25);
     border-radius: 16px;
@@ -207,41 +221,10 @@ hr{
 .postagem{
     background-color: white;
     padding: 21px;
-    margin-top: 20px;
+    margin-top: 46px;
     font-family: 'Inter';
-    box-shadow: 6px 6px 13px rgb(0 0 0 / 25%);
+    box-shadow: 6px 6px 13px rgba(0, 0, 0, 0.25);
     border-radius: 16px;
-}
-
-h4{
-    color: #3D3D3D;
-    text-align: center;
-    margin-top: 25px
-}
-
-.buttonPosts button img{
-    width: 16px;
-    height: 16px;
-    padding: 10px;
-    border-radius: 0px
-}
-
-.buttonPosts{
-    display: flex;
-}
-
-.buttonPosts button{
-    display: flex;
-    align-items: center;
-    background: #E1DAD7;
-    border: none;
-    margin: 5px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 5px;
-}
-
-.buttonPosts p{
-    padding-right: 10px
 }
 
 .postagem img{
@@ -289,78 +272,6 @@ h4{
     margin-top: 20px
 }
 
-input{
-    height: 51px;
-    border: none;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 15px;
-    margin: 20px;
-}
-
-label{
-    color: #3D3D3D;
-    margin-bottom: 8px;
-    margin-top: 20px;
-    margin-left: 20px;
-}
-
-textarea{
-    height: 51px;
-    border: none;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 15px;
-    margin-bottom: 20px;
-    height: 20%;
-    margin: 20px;
-}
-
-.multiselect {
-    width: 200px;
-  }
-  
-  .selectBox {
-    position: relative;
-  }
-  
-  .selectBox select {
-    width: 100%;
-    font-weight: bold;
-  }
-  
-  .overSelect {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-  }
-  
-  #checkboxes {
-    display: none;
-    border: 1px #dadada solid;
-  }
-  
-  #checkboxes label {
-    display: flex;
-    align-items: center;
-  }
-  
-  #checkboxes label:hover {
-    background-color: #1e90ff;
-  }
-
-  #checkboxes input{
-    box-shadow: none
-  }
-
-select{
-    height: 51px;
-    border: none;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 15px;
-    margin: 20px;
-}
-
 .buttonLogin{
     display: flex;
     justify-content: space-between
@@ -381,25 +292,4 @@ select{
     background: #6c757d;
     opacity: 0.65;
 }
-h1{
-    text-align: center;
-    padding: 10px;
-    margin-top: 20px
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 29px;
-    color: #3D3D3D;
-}
 
-.multiselect label{
-    margin: 0;
-    margin-left: 10px;
-    margin-right: 10px
-}
-
-.multiselect input{
-    margin: 0;
-    margin-right: 10px
-}

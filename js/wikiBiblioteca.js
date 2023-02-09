@@ -50,7 +50,7 @@ function openNewPost(params) {
 if(localStorage.getItem('user') == null){
   window.location.href = './login.html'
 } else{
-  console.log(jwt_decode(localStorage.getItem('user')))
+  console.log(localStorage.getItem('user'))
 }
 
 parseQueryString()

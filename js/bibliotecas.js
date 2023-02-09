@@ -26,7 +26,7 @@ Blog.on('value', function (r) {
         }
         $('#entries').html(html);
     }
-    pageTotal = r.val().length
+    pageTotal = Math.ceil(r.val().length / 5)
     document.getElementById('numeracao').innerHTML = `${pageCurrent} de ${pageTotal}`
     r.val().forEach(logArrayElements);
 });
@@ -83,10 +83,10 @@ function viewBiblioteca(params) {
 if(localStorage.getItem('user') == null){
   window.location.href = './login.html'
 } else{
-  console.log(jwt_decode(localStorage.getItem('user')))
+  console.log(localStorage.getItem('user'))
 }
-
-listBiblioteca(1)
+console.log('aqui')
+listBiblioteca(26)
 document.getElementById('numeracao').innerHTML = `${pageCurrent} de ${pageTotal}`
 
 if(pageCurrent == 1){

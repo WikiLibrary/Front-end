@@ -8,8 +8,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/harvesthq/chosen/gh-pages/chosen.jquery.min.js"></script>
+    <link href="https://cdn.rawgit.com/harvesthq/chosen/gh-pages/chosen.min.css" rel="stylesheet"/>
+    <script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
+    <script src="./js/firebase.js"></script>
     <title>WikiLibrary</title>
-    <script src="./js/script.js"></script>
 </head>
 <body>
     <header>
@@ -30,7 +34,40 @@
     <section>
         <div class="contentSection">
             <h1>Postagens</h1>
-        </div>
+            <div style="display: flex; flex-direction: column;">
+                <label for="titulo">Titulo da postagem:</label>
+                <input id="titulo" type="text" onchange="viewInput(this.value)">
+            </div>
+            <div style="display: flex; flex-direction: column;">
+                <label for="textPost">Texto da postagem:</label>
+                <textarea id="textPost" name="w3review" rows="20" cols="50" placeholder="teste" onchange="viewInput(this.value)"></textarea>
+            </div>
+            <!-- <div style="display: flex; flex-direction: column;">
+                <label for="textPost">Texto da postagem:</label>
+                <div class="multiselect">
+                    <div class="selectBox" onclick="showCheckboxes()">
+                      <select id="selectValue">
+                        <option>Select an option</option>
+                      </select>
+                      <div class="overSelect"></div>
+                    </div>
+                    <div id="checkboxes">
+                      <label for="bibliotecas">
+                        <input type="checkbox" id="bibliotecas" onchange="viewInput(this.value)"/>Bibliotecas</label>
+                      <label for="atualizacoes">
+                        <input type="checkbox" id="atualizacoes" onchange="viewInput(this.value)"/>Atualizações</label>
+                      <label for="locais">
+                        <input type="checkbox" id="locais" onchange="viewInput(this.value)"/>Locais</label>
+                      <label for="acervo">
+                        <input type="checkbox" id="acervo" onchange="viewInput(this.value)"/>Acervo</label>
+                    </div>
+                </div>
+            </div> -->
+            <dir class="buttonLogin">
+                <button id="buttonPost" onclick="createNewPost()" disabled>Criar novo Cadastro</button>
+            </dir>
+    </div>
     </section>
 </body>
+<script src="./js/postagem.js"></script>
 </html>
