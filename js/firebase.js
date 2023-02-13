@@ -1,5 +1,5 @@
 var firebaseConfig = {
-    apiKey: "AIzaSyB7C3I4WrESjX7Dq2rSF-uTiY00g02XRQQ",
+  apiKey: "AIzaSyB7C3I4WrESjX7Dq2rSF-uTiY00g02XRQQ",
   authDomain: "wikilibrary-42d0c.firebaseapp.com",
   databaseURL: "https://wikilibrary-42d0c-default-rtdb.firebaseio.com",
   projectId: "wikilibrary-42d0c",

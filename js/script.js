@@ -11,7 +11,11 @@ if(localStorage.getItem('user') == null){
   window.location.href = './login.html'
 } else{
   console.log(JSON.parse(localStorage.getItem('user')).picture)
-  document.getElementById('fotoPerfil').src = JSON.parse(localStorage.getItem('user')).picture
+if(JSON.parse(localStorage.getItem('user')).picture == undefined || JSON.parse(localStorage.getItem('user')).picture == ''){
+    document.getElementById('fotoPerfil').src = '../img/do-utilizador.png'
+  } else {
+    document.getElementById('fotoPerfil').src = JSON.parse(localStorage.getItem('user')).picture
+  }
   document.getElementById('nomePerfil').innerHTML = JSON.parse(localStorage.getItem('user')).name
   document.getElementById('emailPerfil').innerHTML = JSON.parse(localStorage.getItem('user')).email
 }
@@ -37,7 +41,7 @@ function listPosts() {
             <h2>${r.val()[key]['title']}</h2>
             <div style="display: flex; justify-content: space-between; margin-bottom: 30px; margin-top: 30px;">
                 <div style="display: flex;">
-                    <img src="./img/unnamed.jpg" alt="">
+                    
                     <div>
                         <p><b>${r.val()[key]['user']}</b></p>
                         <p>${r.val()[key]['uptadeAt']}</p>
@@ -62,6 +66,18 @@ function listPosts() {
         }
   $('#listPosts').html(html + '<h4>Não a mais postagens novas</h4>');
 });
+}
+
+console.log(getThisIMGUser('giovana.np1@gmail.com').then(resolve => console.log(resolve)))
+{/* <img src="${getThisIMGUser(r.val()[key]['userEmail'])}" alt=""> */}
+async function getThisIMGUser(params) {
+  // let teste = '../img/do-utilizador.png'
+  var ref =  firebase.database().ref("user");
+  await ref.orderByChild("email").equalTo(params).on("child_added", function(snapshot) {
+    console.log('aqui')
+    return snapshot.val()['email'];
+  });
+  // return teste
 }
 
 listPosts()

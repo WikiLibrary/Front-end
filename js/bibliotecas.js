@@ -33,8 +33,9 @@ Blog.on('value', function (r) {
 }
 
 function getImage(params) {
+  console.log(params)
   if(params['Imagem'] != undefined){
-    return entry['Imagem']
+    return params['Imagem']
   }
   return 'https://matriculas.estacio.br/blog/wp-content/uploads/2020/05/29est-biblioteca.jpg'
 }
@@ -86,7 +87,7 @@ if(localStorage.getItem('user') == null){
   console.log(localStorage.getItem('user'))
 }
 console.log('aqui')
-listBiblioteca(26)
+listBiblioteca(1)
 document.getElementById('numeracao').innerHTML = `${pageCurrent} de ${pageTotal}`
 
 if(pageCurrent == 1){

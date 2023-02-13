@@ -17,7 +17,7 @@ function verifyUser() {
   \***************************************************/
       var entry = {};
       entry['email'] = document.getElementById('email').value
-      entry['senha'] = document.getElementById('senha').value
+      entry['senha'] = document.getElementById('senha').value 
       var Entry = firebase.database().ref('user/');
         Entry.on('value', function (r) {
           for (const key in r.val()) {
@@ -29,15 +29,20 @@ function verifyUser() {
                 email: r.val()[key]['email'],
                 name: r.val()[key]['name']
               };
-            console.log('Passou aqui')
               localStorage.setItem('user', JSON.stringify(payload))
               window.location.href = './index.html'
-            } else {
-              console.log('usuario ou senha invalidos')
+            }
+            else{
+              if((Object.keys(r.val()).length == Object.keys(r.val()).indexOf(key)+1)){
+                document.getElementById("myDIV").innerHTML =`<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+                <p><strong>Erro!</strong> Usuario ou senha invalidos.</p>`
+                  document.getElementById("myDIV").style.display = "block";
+                  document.getElementById("email").style.border = "3px solid #f44336"
+                  document.getElementById("senha").style.border = "3px solid #f44336"
+              }
             }
           }
         })
-      console.log(entry)
 }
 
 function handleCredentialResponse(response) {

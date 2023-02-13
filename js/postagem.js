@@ -2,6 +2,9 @@ if(document.getElementById('textPost').value != '' && document.getElementById('t
   console.log(document.getElementById('textPost').value)
   console.log(document.getElementById('titulo').value)
 }
+function loginPage(params) {
+  window.location.href = './login.html'
+}
 $(".chosen-select").chosen({rtl: true}); 
 
 function viewInput() {

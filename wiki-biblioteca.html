@@ -19,7 +19,7 @@
            <ul>
                 <li><a href="./home.html"><b>WikiLibrary</b></a></li>
                 <li><a href="./acervo.html">Acervo</a></li>
-                <li><a href="">Registros</a></li>
+                <li><a href="./registro.html">Registros</a></li>
                 <li><a href="./bibliotecas.html">Bibliotecas</a></li>
                 <li><a href="./index.html">Forúm</a></li>
            </ul> 
@@ -30,7 +30,13 @@
         </nav>
     </header>
     <section>
-        <h1 id="biblioteca">Biblioteca</h1>
+        <div style="display: flex; justify-content: space-between;">       
+            <h1 id="biblioteca">Biblioteca</h1>
+            <dir class="buttonLogin">
+                <button id="buttonCadastro" onclick="redirectEdit()">Editar informações da biblioteca</button>
+                <button id="buttonDeletar" onclick="deleteActivity()">Deletar</button>
+            </dir>
+        </div>
         <div>
             <div style="display: flex;">
                 <div class="lista-bibliotecas">
@@ -38,7 +44,9 @@
                     <img id="image" src="https://matriculas.estacio.br/blog/wp-content/uploads/2020/05/29est-biblioteca.jpg" alt="">
                     </div>
                 </div>
-                <iframe  id="mapa"src="https://www.google.com/maps/d/u/0/embed?mid=16EH-Zv7_e1M32cw8wwZxCvYMElwVTMI&ehbc=2E312F" width="50%" height="250px" style="border: none;filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));border-radius: 25px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div id="mapa" style="width: 50%;">
+                    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=16EH-Zv7_e1M32cw8wwZxCvYMElwVTMI&ehbc=2E312F" width="100%" height="250px" style="border: none;filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));border-radius: 25px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
             <div style="display: flex; padding: 40px">
                 <ul>

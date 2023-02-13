@@ -53,7 +53,7 @@ h1{
 }
 
 input{
-    height: 51px;
+    padding: 20px;
     border: none;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 15px;
@@ -292,4 +292,31 @@ hr{
     background: #6c757d;
     opacity: 0.65;
 }
+#success {
+    padding: 20px;
+    background-color: #04AA6D;
+    color: white;
+    display: none;
+  }
 
+#error {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+    display: none;
+  }
+  
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .closebtn:hover {
+    color: black;
+  }

@@ -53,13 +53,12 @@ h1{
 }
 
 input{
-    height: 51px;
+    padding: 20px;
     border: none;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 15px;
     margin-bottom: 20px;
 }
-
 label{
     color: #3D3D3D;
     margin-bottom: 8px;
@@ -287,3 +286,25 @@ hr{
     padding: 15px;
     width: 50%
 }
+
+#myDIV {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+    display: none;
+  }
+  
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .closebtn:hover {
+    color: black;
+  }

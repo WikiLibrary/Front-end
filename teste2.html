@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+    </head>
+    <body>
+
+    <script src="https://www.gstatic.com/firebasejs/3.2.1/firebase.js"></script>
+    <script>
+        var config =
+        {
+            apiKey: "AIzaSyB7C3I4WrESjX7Dq2rSF-uTiY00g02XRQQ",
+            authDomain: "wikilibrary-42d0c.firebaseapp.com",
+            databaseURL: "https://wikilibrary-42d0c-default-rtdb.firebaseio.com",
+            projectId: "wikilibrary-42d0c",
+            storageBucket: "wikilibrary-42d0c.appspot.com",
+            messagingSenderId: "849181954677",
+            appId: "1:849181954677:web:51b40c463c14fbfa925e3c",
+            measurementId: "G-DVJG02WTDL"
+        };
+
+        firebase.initializeApp(config);
+        var storage = firebase.storage();
+        var storageRef = storage.ref();
+        var tangRef = storageRef.child('images/Tang.png');
+
+        tangRef.getDownloadURL().then(function(url) 
+        {
+            var test = url
+            document.querySelector('img').src = test;
+        }).catch(function(error) 
+        {
+            switch (error.code) 
+            {
+                case 'storage/object_not_found':
+                    break;
+
+                case 'storage/unauthorized':
+                    break;
+
+                case 'storage/canceled':
+                    break;
+
+                case 'storage/unknown':
+                    break;
+            }
+        });
+
+        var test = 'firebase_url';
+        document.querySelector('img').src = test;
+
+
+
+    </script>
+    <img height="125" width="125"/>
+    </body>
+</html>

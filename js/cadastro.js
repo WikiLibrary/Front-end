@@ -15,6 +15,9 @@ function viewInput(val) {
   document.getElementById('nome').value != '' && document.getElementById('email').value != ''){
     document.getElementById('buttonCadastro').disabled = false 
   }
+  document.getElementById("email").style.border = "none"
+  document.getElementById("confirmarSenha").style.border = "none"
+  document.getElementById("senha").style.border = "none"
 }
 
 function handleCredentialResponse(response) {
@@ -76,11 +79,19 @@ function createNewUser() {
                 console.error(error);
             })
           } else {
+            document.getElementById("error").innerHTML =`<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+              <p><strong>Erro!</strong> Usuario já cadastrado.</p>`
+              document.getElementById("error").style.display = "block";
+              document.getElementById("email").style.border = "3px solid #f44336"
             console.log('Ela já possui cadastro');
           }
         })
       } else {
-        console.log('as senhas não batem')
+        document.getElementById("error").innerHTML =`<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+        <p><strong>Erro!</strong> Senha não são iguais uma com as outras.</p>`
+        document.getElementById("error").style.display = "block";
+        document.getElementById("confirmarSenha").style.border = "3px solid #f44336"
+        document.getElementById("senha").style.border = "3px solid #f44336"
       }
       console.log(entry)
 }

@@ -21,7 +21,7 @@
            <ul>
                 <li><a href="./home.html"><b>WikiLibrary</b></a></li>
                 <li><a href="./acervo.html">Acervo</a></li>
-                <li><a href="">Registros</a></li>
+                <li><a href="./registro.html">Registros</a></li>
                 <li><a href="./bibliotecas.html">Bibliotecas</a></li>
                 <li><a href="./index.html">Forúm</a></li>
            </ul> 
@@ -39,14 +39,18 @@
             </div>
             <div style="width: 30%;">
                 <h2>IDENTIFIQUE-SE</h2>
+                <div id="myDIV">
+                    <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+                    <p><strong>Danger!</strong> Indicates a dangerous or potentially negative action.</p>
+                </div>
                 <div>
                     <div style="display: flex; flex-direction: column;">
                         <label for="email">Email</label>
-                        <input id="email" type="email">
+                        <input id="email" placeholder="Email" type="email">
                     </div>
                     <div style="display: flex; flex-direction: column;">
                         <label for="senha">Senha</label>
-                        <input id="senha" type="password">
+                        <input id="senha" placeholder="Senha" type="password">
                     </div>
                 </div>
                 <dir class="buttonLogin">

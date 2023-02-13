@@ -332,3 +332,36 @@ li{
 li img{
     padding: 5px;
 }
+
+.buttonLogin{
+    display: flex;
+    justify-content: space-between
+}
+
+.buttonLogin button{
+    background: #DB7600;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    color: white;
+    margin: 15px;
+    padding: 15px;
+    width: 100%
+}
+
+input{
+    padding: 10px;
+    border: none;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 10px;
+}
+
+label{
+    color: #3D3D3D;
+    margin-bottom: 8px;
+    margin-top: 20px;
+}
+
+#buttonDeletar{
+    background-color: #f44336
+}

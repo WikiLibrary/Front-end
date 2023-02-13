@@ -1,3 +1,15 @@
+function redirectEdit() {
+    var str = window.location.search;
+    var objURL = {};
+    str.replace(
+        new RegExp( "([^?=&]+)(=([^&]*))?", "g" ),
+        function( $0, $1, $2, $3 ){
+            objURL[ $1 ] = $3;
+        }
+    );
+    window.location.href = `./wiki-biblioteca-edit.html?id=${objURL.id}`
+}
+
 var parseQueryString = function() {
     var str = window.location.search;
     let mapa = '' 
@@ -30,9 +42,15 @@ var parseQueryString = function() {
         document.getElementById("tipologia").innerHTML =  `<b>Tipologia da Pesquisa:</b>${entry['Tipologia da Pesquisa']}`
         document.getElementById("biblioteca").innerHTML =  `${entry['Biblioteca']}`
         if(entry['Mapa'] != undefined){
-            document.getElementById("mapa").src = entry['Mapa']
+            console.log(document.getElementById("mapa"))
+            document.getElementById("mapa").innerHTML = entry['Mapa']
+            document.querySelector("iframe").width = "100%"
+            document.querySelector("iframe").height = "250px"
+            document.querySelector("iframe").style = "border: none;filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));border-radius: 25px;"
+            console.log(document.querySelector("iframe"))
         }
-        if(entry['Imagem'] != undefined){
+        if(entry['Imagem'] != undefined && entry['Imagem'] != ''){
+            console.log(entry['Imagem'])
             document.getElementById("image").src = entry['Imagem']
         }
     });
@@ -54,3 +72,19 @@ if(localStorage.getItem('user') == null){
 }
 
 parseQueryString()
+
+function deleteActivity() {
+    var str = window.location.search;
+    let mapa = '' 
+    var objURL = {};
+    str.replace(
+        new RegExp( "([^?=&]+)(=([^&]*))?", "g" ),
+        function( $0, $1, $2, $3 ){
+            objURL[ $1 ] = $3;
+        }
+    );
+    var Entry = firebase.database().ref('bibliotecas/').child(objURL.id);
+    Entry.remove(); // this will trigger Entry.on('value') immediatly
+    window.location.replace("./bibliotecas.html")
+    return false;
+}
