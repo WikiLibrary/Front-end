@@ -16,7 +16,6 @@ Blog.on('value', function (r) {
             <img src="${getImage(item)}" alt="">
             <div>
                 <p><b>${item.Biblioteca}</b></p>
-                <p>1500 Livros - 350 de Registros publicados</p>
                 <span>
                     <p>${item.Endereço}</p>
                     <p><b>${item.Instituição}</b></p>
@@ -32,8 +31,13 @@ Blog.on('value', function (r) {
 });
 }
 
+{/* <p>1500 Livros - 350 de Registros publicados</p> */}
+
 function getImage(params) {
-  console.log(params)
+  console.log('Essa é a imagem -->', params)
+  if(params['Imagem'] == 'https://wikilibrary.netlify.app/undefined'){
+    return 'https://matriculas.estacio.br/blog/wp-content/uploads/2020/05/29est-biblioteca.jpg'
+  }
   if(params['Imagem'] != undefined){
     return params['Imagem']
   }

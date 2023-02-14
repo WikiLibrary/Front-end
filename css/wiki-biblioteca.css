@@ -25,6 +25,8 @@ header{
     background-color: white
 }
 
+
+
 body{
     background-image: url('../img/background.jpg');
     background-size: 100%;
@@ -336,6 +338,10 @@ li img{
 .buttonLogin{
     display: flex;
     justify-content: space-between
+}
+
+button{
+    cursor: pointer;
 }
 
 .buttonLogin button{

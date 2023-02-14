@@ -18,15 +18,15 @@
     align-items: center;
 }
 
-button{
-    cursor: pointer;
-}
-
 header{
     height: 72px;
     display: flex;
     align-text: center;
     background-color: white
+}
+
+button{
+    cursor: pointer;
 }
 
 body{
@@ -37,13 +37,55 @@ body{
 }
 
 section{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    text-align: start
+}
+
+.contentSection{
     background-color: white;
     height: 100%;
+    width: 60%;
     margin: 50px;
     background: rgba(255, 245, 245, 0.74);
     box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.1);
     border-radius: 25px;
-    padding-bottom: 3px;
+    padding: 61px;
+}
+
+.contentSection img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;  
+}
+
+.contentSection p{
+    color: #3D3D3D;
+}
+
+.contentSection b{
+    color: black
+}
+
+.contentSection span{
+    background: #FBD2EA;
+    border: 2px solid #FF80CC;
+    border-radius: 25px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    padding: 10px;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.contentSection span p {
+    color: #B7006E;
 }
 
 .menu .button-menu{
@@ -135,6 +177,7 @@ section li{
     align-items: center;
     padding: 21px;
     margin-top: 20px;
+    margin-bottom: 20px;
     font-family: 'Inter';
     box-shadow: 6px 6px 13px rgba(0, 0, 0, 0.25);
     border-radius: 16px;
@@ -201,10 +244,42 @@ hr{
 .postagem{
     background-color: white;
     padding: 21px;
-    margin-top: 46px;
+    margin-top: 20px;
     font-family: 'Inter';
-    box-shadow: 6px 6px 13px rgba(0, 0, 0, 0.25);
+    box-shadow: 6px 6px 13px rgb(0 0 0 / 25%);
     border-radius: 16px;
+}
+
+h4{
+    color: #3D3D3D;
+    text-align: center;
+    margin-top: 25px
+}
+
+.buttonPosts button img{
+    width: 16px;
+    height: 16px;
+    padding: 10px;
+    border-radius: 0px
+}
+
+.buttonPosts{
+    display: flex;
+}
+
+.buttonPosts button{
+    display: flex;
+    height: 36px;
+    align-items: center;
+    background: #E1DAD7;
+    border: none;
+    margin: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.buttonPosts p{
+    padding-right: 10px
 }
 
 .postagem img{
@@ -252,71 +327,122 @@ hr{
     margin-top: 20px
 }
 
-.lista-bibliotecas{
-    background: #FBD2EA;
-    border-radius: 20px;
-    margin: 40px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    width: 40%
+input{
+    height: 51px;
+    border: none;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    margin: 20px;
 }
 
+label{
+    color: #3D3D3D;
+    margin-bottom: 8px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+textarea{
+    height: 51px;
+    border: none;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    margin-bottom: 20px;
+    height: 20%;
+    margin: 20px;
+}
+
+.multiselect {
+    width: 200px;
+  }
+  
+  .selectBox {
+    position: relative;
+  }
+  
+  .selectBox select {
+    width: 100%;
+    font-weight: bold;
+  }
+  
+  .overSelect {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+  
+  #checkboxes {
+    display: none;
+    border: 1px #dadada solid;
+  }
+  
+  #checkboxes label {
+    display: flex;
+    align-items: center;
+  }
+  
+  #checkboxes label:hover {
+    background-color: #1e90ff;
+  }
+
+  #checkboxes input{
+    box-shadow: none
+  }
+
+select{
+    height: 51px;
+    border: none;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.buttonLogin{
+    display: flex;
+    justify-content: space-between
+}
+
+.buttonLogin button{
+    background: #DB7600;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    color: white;
+    margin: 15px;
+    padding: 15px;
+    width: 100%
+}
+
+.buttonLogin button:disabled{
+    background: #6c757d;
+    opacity: 0.65;
+}
 h1{
+    padding: 10px;
+    /* margin-left: 20px;
+    margin-top: 20px; */
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 29px;
-    padding: 20px;
     color: #3D3D3D;
 }
 
-h2{
-    color: #B7006E;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 17px;
-    padding:15px;
-    padding-bottom:0px;
+.multiselect label{
+    margin: 0;
+    margin-left: 10px;
+    margin-right: 10px
 }
 
-.item-lista-bibliotecas{
-    background: rgba(255, 245, 245, 0.74);
-    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.1);
-    border-radius: 25px;
-    display: flex;
-    padding:15px;
-    margin: 15px;
+.multiselect input{
+    margin: 0;
+    margin-right: 10px
 }
 
-.item-lista-bibliotecas img{
-    height: 70px;
-    border-radius: 15px;
-    margin-right: 10px;
-}
-
-.paginacao{
-    padding:15px;
-    display: flex;
-    justify-content: center;
-    align-items: center
-}
-
-.paginacao button{
-    margin-left:20px;
-    margin-right:20px;
-    background-color: white;
-    border: 1px #DFE3E8 solid;
-    padding: 10px;
-    border-radius: 10px
-}
-
-p{
-    font-size: 14px
-}
-
-span p{
-    color: #4A6ECA
+#image{
+    border-radius: 0;
+    box-shadow: none
 }

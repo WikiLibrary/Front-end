@@ -30,12 +30,14 @@ function updateNotification(params) {
     User.on('value', function (r) {
       for (const key in r.val()) {
         if(r.val()[key]['email'] == JSON.parse(localStorage.getItem('user')).email){
-            console.log('entrou uma vez')
             User = firebase.database().ref('user/').child(key);
             User.transaction(function(){
                let entry = r.val()[key];
-               console.log(entry['Notificações'])
+               if(entry['Notificações'] == undefined){
+                  entry['Notificações'] = []
+               }
                let teste = []
+               console.log(r.val())
                for (let index = 0; index < entry['Notificações'].length; index++) {
                 console.log(entry['Notificações'][index])
                }
@@ -43,7 +45,7 @@ function updateNotification(params) {
 
               console.log(teste)
               return entry
-           }).then(function(){
+           }).then(function(resolve){
             window.location.href = './index.html'
           }).catch(function(error){
                console.error(error);
@@ -51,6 +53,8 @@ function updateNotification(params) {
         }
       }
 })}
+
+
 function createNewPost(params) {
     let entry = {}
     entry['Comments'] = []
@@ -62,6 +66,8 @@ function createNewPost(params) {
     entry['title'] = document.getElementById('titulo').value
     entry['user'] = JSON.parse(localStorage.getItem('user')).name
     entry['userEmail'] = JSON.parse(localStorage.getItem('user')).email
+    entry['upload'] = document.querySelector("#image").src
+
     console.log(entry)
     var Post = firebase.database().ref('postagens/');
     Post.push(entry).then(function(data){
@@ -70,4 +76,21 @@ function createNewPost(params) {
           console.error(error);
         }
     )
+}
+
+function uploadImage() {
+  const ref = firebase.storage().ref();
+  const file = document.querySelector("#image").files[0];
+  const name = +new Date() + "-" + file.name;
+  const metadata = {
+     contentType: file.type
+  };
+  const task = ref.child(name).put(file, metadata);task
+  .then(snapshot => snapshot.ref.getDownloadURL())
+  .then(url => {
+  console.log(url);
+  alert('image uploaded successfully');
+  document.querySelector("#image").src = url;
+})
+.catch(console.error);
 }

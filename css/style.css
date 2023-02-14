@@ -61,6 +61,10 @@ section{
     border: none;   
 }
 
+button{
+  cursor: pointer;
+}
+
 .menu li{
     font-family: 'Inter', sans-serif;
 }

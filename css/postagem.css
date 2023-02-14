@@ -25,6 +25,10 @@ header{
     background-color: white
 }
 
+button{
+    cursor: pointer;
+}
+
 body{
     background-image: url('../img/background.jpg');
     background-size: 100%;
@@ -402,4 +406,9 @@ h1{
 .multiselect input{
     margin: 0;
     margin-right: 10px
+}
+
+#image{
+    border-radius: 0;
+    box-shadow: none
 }

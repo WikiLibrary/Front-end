@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/view-postagem.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/harvesthq/chosen/gh-pages/chosen.jquery.min.js"></script>
+    <link href="https://cdn.rawgit.com/harvesthq/chosen/gh-pages/chosen.min.css" rel="stylesheet"/>
+    <script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
+    <script src="./js/firebase.js"></script>
+    <title>WikiLibrary</title>
+</head>
+<body>
+    <header>
+        <nav class="menu">
+           <ul>
+                <li><a href="./home.html"><b>WikiLibrary</b></a></li>
+                <li><a href="./acervo.html">Acervo</a></li>
+                <li><a href="./registro.html">Registros</a></li>
+                <li><a href="./bibliotecas.html">Bibliotecas</a></li>
+                <li><a href="./index.html">Forúm</a></li>
+           </ul> 
+           <div class="button-menu">
+                <button onClick="loginPage()">Login</button>
+                <button>Pt-BR</button>
+           </div>
+        </nav>
+    </header>
+    <section>
+        <div class="contentSection">
+            <h1 id="title">Postagens</h1>
+            <div style="display: flex; justify-content: space-between; margin-bottom: 30px; margin-top: 30px;">
+                <div style="display: flex;">
+                    <img src="./img/unnamed.jpg" alt="">
+                    <div>
+                        <p id="user"><b>Giovana</b></p>
+                        <p id="uptadeAt">Ter. 17 de Jan. 00:47</p>
+                    </div>
+                </div>
+                <!-- <div style="display: flex">
+                    ${itemSpan}
+                </div> -->
+            </div>
+            <div style="display: flex;">
+                <div style="width: 80%;">
+                    <p style="font-size: 15px; line-height: 18px;" id="TextPost">
+                        Caros colaboradores,
+        
+                        Comunicamos que foi feita a atualização do WikiLibrary para a Lista de Bibliotecas das Regiões de Duque de Caxias.
+                        Desta forma, novos acervos e locais foram incluídos e outros foram unificados, o que pode impactar nas estatísticas das listas de Acervos que possuímos no site.
+                        Os detalhes da migração para a nova lista estão na página que você poderá acessar na sessão de bibliotecas
+                        
+                        O site ficará algumas horas em modo "Somente Leitura", ou seja, fechado para login.
+                        A previsão para a abertura é nesta segunda-feira 31/02 as 13h00.
+                        
+                        Atenciosamente,
+                        Giovana do Nascimento
+                        Desenvolvedora Fullstack
+                    </p>
+                    <div style="display: flex; justify-content: space-between; margin-top: 25px; align-items: center;">
+                      <div class="buttonPosts">
+                        <button><img src="./img/bookmark.png" label="bookmark"></button>
+                        <button><img src="./img/chat.png" label="bookmark"><p>Comentar</p></button>
+                      </div>
+                      <div>
+                        <p>0 Comentarios</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="buttonPosts" style="align-items: flex-end; margin-left: 30px;">
+                    <button style="padding-left: 20px; padding-right: 20px;">Curtir</button>
+                    <button style="padding-left: 20px; padding-right: 20px;">Salvar</button>
+                </div>
+            </div>
+    </div>
+    </section>
+</body>
+<script src="./js/view-postagem.js"></script>
+</html>
