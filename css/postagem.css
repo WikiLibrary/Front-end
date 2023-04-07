@@ -412,3 +412,7 @@ h1{
     border-radius: 0;
     box-shadow: none
 }
+
+.progress-down{
+    background-color: #B7006E
+}

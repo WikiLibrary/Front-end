@@ -42,31 +42,15 @@
                 <label for="textPost">Texto da postagem:</label>
                 <textarea id="textPost" name="w3review" rows="20" cols="50" placeholder="teste" onchange="viewInput(this.value)"></textarea>
             </div>
-            <!-- <div style="display: flex; flex-direction: column;">
-                <label for="textPost">Texto da postagem:</label>
-                <div class="multiselect">
-                    <div class="selectBox" onclick="showCheckboxes()">
-                      <select id="selectValue">
-                        <option>Select an option</option>
-                      </select>
-                      <div class="overSelect"></div>
-                    </div>
-                    <div id="checkboxes">
-                      <label for="bibliotecas">
-                        <input type="checkbox" id="bibliotecas" onchange="viewInput(this.value)"/>Bibliotecas</label>
-                      <label for="atualizacoes">
-                        <input type="checkbox" id="atualizacoes" onchange="viewInput(this.value)"/>Atualizações</label>
-                      <label for="locais">
-                        <input type="checkbox" id="locais" onchange="viewInput(this.value)"/>Locais</label>
-                      <label for="acervo">
-                        <input type="checkbox" id="acervo" onchange="viewInput(this.value)"/>Acervo</label>
-                    </div>
-                </div>
-            </div> -->
             <div style="display: flex; flex-direction: column;">
               <label for="image">Upload de arquivo:</label>
+              <div style="display: flex; justify-content: space-around; width: 30%;">
+                <p id="progress">0%</p>
+                <progress max="100" value="0"id="progress-down" onchange="progress"> </progress> 
+              </div>
               <input id="image" type="file" onchange="uploadImage()" src="https://firebasestorage.googleapis.com/v0/b/wikilibrary-42d0c.appspot.com/o/1676325928672-reading.png?alt=media&amp;token=1a9171d9-1b07-4287-a3c0-d74abcd415b6">
             </div>
+            <h3 id="status"></h3>
             <dir class="buttonLogin">
                 <button id="buttonPost" onclick="createNewPost()" disabled>Criar novo Cadastro</button>
             </dir>

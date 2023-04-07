@@ -1,4 +1,5 @@
 var parseQueryString = function() {
+    console.log('entrou')
     var str = window.location.search;
     let mapa = '' 
     var objURL = {};
@@ -9,6 +10,7 @@ var parseQueryString = function() {
         }
     );
     console.log(objURL.id)
+    console.log('entrou')
     var Entry = firebase.database().ref('postagens/').child(objURL.id);
     Entry.once('value', function (r) { // once = just this once, no need to actively watch the changes
         let entry = r.val();
@@ -17,6 +19,12 @@ var parseQueryString = function() {
         document.getElementById("user").innerHTML =  `<b>${entry['user']}</b>`
         document.getElementById("TextPost").innerHTML =  `${entry['TextPost']}`
         document.getElementById("uptadeAt").innerHTML =  `${entry['uptadeAt']}`
+        if(entry['picture'] == undefined || entry['picture'] == ''){
+            document.getElementById('img-postagem').src = '../img/do-utilizador.png'
+        } else {
+            document.getElementById('img-postagem').src = entry['picture']
+        }
+        // img-postagem
         if(entry['Mapa'] != undefined){
             console.log(document.getElementById("mapa"))
             document.getElementById("mapa").innerHTML = entry['Mapa']
@@ -31,5 +39,4 @@ var parseQueryString = function() {
         }
     });
 };
-
 parseQueryString()

@@ -53,6 +53,7 @@ var parseQueryString = function() {
         document.getElementById("twitter").value =  entry['Twitter']
         document.getElementById("vinculo").value =  entry['Vínculo (Estadual, Municipal, Federal, Privado)']
         document.getElementById("mapa").value =  entry['Mapa']
+        document.getElementById("horario").value =  entry['Horario']
         document.getElementById("image").src =  entry['Imagem']
         data = entry
     });
@@ -76,6 +77,7 @@ function updateActivity() {
         entry['Site'] = document.getElementById("site").value
         entry['Telefone'] = document.getElementById("telefone").value
         entry['Tipologia (SNBP)'] = document.getElementById("snbp").value
+        entry['Horario'] = document.getElementById("horario").value
         entry['Tipologia (Temática)'] = document.getElementById("tematica").value
         entry['Tipologia da Pesquisa'] = document.getElementById("tipologia").value
         entry['Twitter'] = document.getElementById("twitter").value

@@ -14,6 +14,7 @@ function viewInput() {
     }
 }
 var expanded = false;
+let progress = 0
 
 // function showCheckboxes() {
 //   var checkboxes = document.getElementById("checkboxes");
@@ -54,6 +55,15 @@ function updateNotification(params) {
       }
 })}
 
+const range = document.querySelector('#range'),
+	progressbar = document.querySelector('.progress-bar');
+  
+  
+range.addEventListener('input', function(){
+	const value = range.value;
+  progressbar.style.setProperty('--progress', value)
+})
+
 
 function createNewPost(params) {
     let entry = {}
@@ -64,6 +74,7 @@ function createNewPost(params) {
     entry['uptadeAt'] = new Date().toISOString().toString()
     entry['likeAt'] = []
     entry['title'] = document.getElementById('titulo').value
+    entry['picture'] = JSON.parse(localStorage.getItem('user')).picture
     entry['user'] = JSON.parse(localStorage.getItem('user')).name
     entry['userEmail'] = JSON.parse(localStorage.getItem('user')).email
     entry['upload'] = document.querySelector("#image").src
@@ -85,12 +96,32 @@ function uploadImage() {
   const metadata = {
      contentType: file.type
   };
-  const task = ref.child(name).put(file, metadata);task
-  .then(snapshot => snapshot.ref.getDownloadURL())
+  console.log(metadata)
+  const task = ref.child(name).put(file, metadata);
+  task.on('state_changed', 
+  (snapshot) => {
+    // Observe state change events such as progress, pause, and resume
+    // Get task progress, including the number of bytes uploaded and the total number of bytes to be uploaded
+    progress = (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
+    document.getElementById("progress-down").value = progress
+    document.getElementById("progress").innerHTML = parseInt(progress) + "%"
+    console.log('Upload is ' + progress + '% done');
+    switch (snapshot.state) {
+      case 'paused':
+        console.log('Upload is paused');
+        break;
+      case 'running':
+        console.log('Upload is running');
+        break;
+    }
+  }, 
+  (error) => {
+    // Handle unsuccessful uploads
+  })
+  task.then(snapshot => snapshot.ref.getDownloadURL())
   .then(url => {
-  console.log(url);
-  alert('image uploaded successfully');
-  document.querySelector("#image").src = url;
+    console.log(url);
+    alert('image uploaded successfully');
+    document.querySelector("#image").src = url;
 })
-.catch(console.error);
 }
