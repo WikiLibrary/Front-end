@@ -190,6 +190,61 @@ section li{
     box-shadow: -2px 2px 7px rgba(0, 0, 0, 0.25);
     border-radius: 5px;  
 }
+
+.new-comment{
+    max-height: 43px;
+}
+
+.new-comment-button {
+    max-height: 50px;
+    max-width: 50px;
+}
+
+.new-comment-image {
+    max-height: 30px !important;
+    max-width: 30px !important;
+    margin-left: 0px;
+    margin-top: -2px;
+}
+
+.new-comment-input {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    outline: none;
+    box-shadow: none;
+}
+
+.comment-area {
+    margin-top: 40px;
+    min-height: 59px;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 21px;
+    margin-bottom: 20px;
+    font-family: 'Inter';
+    box-shadow: 6px 6px 13px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+}
+
+.img-comment {
+    width: 50px !important;
+    height: 50px !important;
+    padding-right: 20px;
+}
+
+.update-time {
+    padding-left: 20px;
+}
+
+.user-role{
+    margin-top: -20px;
+    margin-left: 70px;
+}
+
 .photo-porfile{
     font-family: 'Inter', sans-serif;
 }
