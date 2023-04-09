@@ -102,6 +102,7 @@ function listPosts() {
 }
 
 function likeButton(params) {
+  if (params == true){
   console.log('Entoru aqui', document.getElementById("buttonLike").style.backgroundColor)
   document.getElementById("buttonLike").style.backgroundColor = "#B7006E"
   document.getElementById("buttonLike").style.color = "white"
@@ -111,6 +112,7 @@ function likeButton(params) {
   document.getElementById("buttonLike").style.backgroundColor = "#E1DAD7"
   document.getElementById("buttonLike").style.color = "black"
   document.getElementById("buttonLike").innerHTML = "Curtir"
+}
 }
 
 function viewPost(params) {
