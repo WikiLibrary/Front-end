@@ -6,6 +6,20 @@ function openNewPost(params) {
   window.location.href = './postagem.html'
 }
 
+function getUser(params) {
+  var User = firebase.database().ref('user');
+  User.on('value', function (r) {
+    for (const key in r.val()) {
+      if (r.val()[key]['email'] == JSON.parse(localStorage.getItem('user')).email) {
+        let listNotify = ''
+        console.log(r.val())
+        r.val()[key]['Notificações'].map(value => listNotify += `<p style="font-size: 15px; line-height: 18px;">${value}</p>`) 
+        document.getElementById('postagem-list').innerHTML = listNotify
+      }
+    }
+  })
+}
+
 if (localStorage.getItem('user') == null) {
   window.location.href = './login.html'
 } else {
@@ -16,6 +30,7 @@ if (localStorage.getItem('user') == null) {
   }
   document.getElementById('nomePerfil').innerHTML = JSON.parse(localStorage.getItem('user')).name
   document.getElementById('emailPerfil').innerHTML = JSON.parse(localStorage.getItem('user')).email
+  getUser()
 }
 
 var Post = firebase.database().ref('postagens');
@@ -66,12 +81,17 @@ function listPosts() {
           ${url}
           <div style="display: flex; justify-content: space-between; margin-top: 25px; align-items: center;">
             <div class="buttonPosts">
+              ${buttonMark}
               <button><img src="./img/bookmark.png" label="bookmark"></button>
               <button><img src="./img/chat.png" label="bookmark"><p>Comentar</p></button>
+              ${likeButtonOpen}
               ${deleteButton}
             </div>
             <div>
               <p>${comments.length} Comentarios</p>
+            </div>
+            <div>
+              <p>${likeAt.length} Curtidas</p>
             </div>
           </div>
           </div>`
@@ -79,6 +99,18 @@ function listPosts() {
     }
     $('#listPosts').html(html + '<h4>Não a mais postagens novas</h4>');
   });
+}
+
+function likeButton(params) {
+  console.log('Entoru aqui', document.getElementById("buttonLike").style.backgroundColor)
+  document.getElementById("buttonLike").style.backgroundColor = "#B7006E"
+  document.getElementById("buttonLike").style.color = "white"
+  document.getElementById("buttonLike").innerHTML = "Curtido"
+  }
+  else{
+  document.getElementById("buttonLike").style.backgroundColor = "#E1DAD7"
+  document.getElementById("buttonLike").style.color = "black"
+  document.getElementById("buttonLike").innerHTML = "Curtir"
 }
 
 function viewPost(params) {

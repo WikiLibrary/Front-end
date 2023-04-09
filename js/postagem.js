@@ -11,7 +11,6 @@ $(".chosen-select").chosen({
 });
 
 function viewInput() {
-  // console.log(document.getElementById('bibliotecas').value)
   if (document.getElementById('textPost').value != '' && document.getElementById('titulo').value != '') {
     document.getElementById('buttonPost').disabled = false
   }
@@ -19,16 +18,7 @@ function viewInput() {
 var expanded = false;
 let progress = 0
 
-// function showCheckboxes() {
-//   var checkboxes = document.getElementById("checkboxes");
-//   if (!expanded) {
-//     checkboxes.style.display = "block";
-//     expanded = true;
-//   } else {
-//     checkboxes.style.display = "none";
-//     expanded = false;
-//   }
-// }
+
 function getUser(params) {
   var User = firebase.database().ref('user');
   User.on('value', function (r) {
@@ -50,17 +40,17 @@ function updateNotification (entry, data) {
   let resultCurr = 0 
   console.log(user[userKey])
   if (user[userKey]['Notificações'] != undefined) {
+    dataResult = user[userKey]['Notificações']
+    dataResult.push(entry['createdAt'] + ' ' + JSON.parse(localStorage.getItem('user')).name + ' criou a postagem ' + entry.title)
+  } else {
     resultCurr = user[userKey]['Notificações'].length
+    dataResult[resultCurr] = entry['createdAt'] + ' ' + JSON.parse(localStorage.getItem('user')).name + ' criou a postagem ' + entry.title
   }
-  dataResult[resultCurr] = entry['createdAt'] + ' ' + JSON.parse(localStorage.getItem('user')).email + ' criou a postagem ' + entry.title
+  console.log(resultCurr)
   var updates = {};
   console.log(dataResult)
-  if(user[userKey]['Notificações'] != undefined) {
-    updates['/user/' + userKey + '/Notificações/'] = dataResult;
-  }
-  else {
-    updates['/user/' + userKey + '/Notificações/'].push(dataResult);
-  }
+  console.log(dataResult)
+  updates['/user/' + userKey + '/Notificações/'] = dataResult;
   console.log(updates)
   firebase.database().ref().update(updates);
   window.location.href = './index.html'
