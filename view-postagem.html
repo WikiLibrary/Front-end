@@ -57,7 +57,7 @@
                         <button><img src="./img/chat.png" label="bookmark"><p>Comentar</p></button>
                       </div>
                       <div>
-                        <p>0 Comentarios</p>
+                        <p id="totalComments"></p>
                       </div>
                     </div>
                 </div>
@@ -70,14 +70,7 @@
                 <input class="new-comment-input" placeholder="Adicionar um Novo Comentário"></input>
                 <button class="new-comment-button"><img class="new-comment-image" src="./img/add.svg" alt=""></button>
             </div>
-            <div class="comment-area">
-                <div style="display: flex; flex-direction: row;">
-                    <img class="img-comment" src="" alt="" id="img-postagem">   
-                    <p><b>Giovana</b></p>
-                    <p class="update-time">Ter. 17 de Jan. 00:47</p>
-                </div>
-                <p class="user-role">Desenvolvedora Fullstack</p>
-                <p style="margin-top: 20px;">Mais atualizações em breve</p>
+            <div id="commentsList">
             </div>
         </div>
     </section>
