@@ -13,7 +13,7 @@ function getUser(params) {
       if (r.val()[key]['email'] == JSON.parse(localStorage.getItem('user')).email) {
         let listNotify = ''
         console.log(r.val())
-        r.val()[key]['Notificações'].map(value => listNotify += `<p style="font-size: 15px; line-height: 18px;">${value}</p>`) 
+        r.val()[key]['Notificações'].map(value => listNotify += `<p style="font-size: 15px; line-height: 18px;">${value}</p>`)
         document.getElementById('postagem-list').innerHTML = listNotify
       }
     }
@@ -81,10 +81,9 @@ function listPosts() {
           ${url}
           <div style="display: flex; justify-content: space-between; margin-top: 25px; align-items: center;">
             <div class="buttonPosts">
-              ${buttonMark}
               <button><img src="./img/bookmark.png" label="bookmark"></button>
               <button><img src="./img/chat.png" label="bookmark"><p>Comentar</p></button>
-              ${likeButtonOpen}
+              ${likeButton(likeAt)}
               ${deleteButton}
             </div>
             <div>
@@ -102,17 +101,14 @@ function listPosts() {
 }
 
 function likeButton(params) {
-  if (params == true){
-  console.log('Entoru aqui', document.getElementById("buttonLike").style.backgroundColor)
-  document.getElementById("buttonLike").style.backgroundColor = "#B7006E"
-  document.getElementById("buttonLike").style.color = "white"
-  document.getElementById("buttonLike").innerHTML = "Curtido"
+  haveLike = []
+  haveLike = params.filter(item => item != localStorage.getItem('user').email)
+  console.log(params)
+  if (haveLike.length != 0) {
+    return `<button style="background-color: mediumvioletred;"><img src="./img/heart-white.png" label="heart"><p style="color: white;" >Curtido</p></button>`
+  } else {
+    return `<button><img src="./img/heart.png" label="heart"><p>Curtir</p></button>`
   }
-  else{
-  document.getElementById("buttonLike").style.backgroundColor = "#E1DAD7"
-  document.getElementById("buttonLike").style.color = "black"
-  document.getElementById("buttonLike").innerHTML = "Curtir"
-}
 }
 
 function viewPost(params) {
