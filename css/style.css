@@ -32,6 +32,15 @@ body{
     font-family: 'Inter';
 }
 
+h1{
+    font-size: 53px;
+    color: #DB7600
+}
+
+h2{
+    color: #0096B7
+}
+
 section{
     background-color: white;
     height: 100%;
