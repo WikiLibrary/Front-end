@@ -1,21 +1,19 @@
 let data
 
 function setComments() {
-  console.log('passou'); 
   let html = '';
   let total ='';
   if(data['comments'] !== undefined) {
+	console.log(data);
     var params = data['comments'].filter(post => post);
     var countingComments = params.length;
-    console.log('par', params);
-    console.log('total:', countingComments);
     params.forEach(item => {
       console.log('passou aqui');
       html += `<div class="comment-area">
           <div style="display: flex; flex-direction: row;">
             <img class="img-comment" src="${item.userImage}" alt="" id="img-postagem">   
-            <p id="userComment">${item.user}</p>
-            <p class="update-time">${item.creatAt}7</p>
+            <p id="userComment">${item.email}</p>
+            <p class="update-time">${item.createdAt}7</p>
           </div>
           <p class="user-role">${item.jobRole}</p>
           <p style="margin-top: 20px;">${item.content}</p>
@@ -38,13 +36,24 @@ comments['userImage'] = JSON.parse(localStorage.getItem('user')).picture
 comments['jobRole'] = 'Desenvolvedora Fullstack'
 
 console.log(comments)
-var Post = firebase.database().ref(data['comments']);
-Post.push(comments).then(function (data) {
-    console.log('deu certo', data);
-  }).catch(function (error) {
-    console.error(error);
-  })
+let index
+
+if(data['comments'].length == undefined){
+	index = 0
+} else {
+	index = data['comments'].length
 }
+
+console.log(index)
+
+var updates = {};
+updates['/postagens/' + getURL() + '/comments/' + index + "/"] = comments;
+console.log(updates)
+firebase.database().ref().update(updates);
+parseQueryString(getURL())
+}
+
+
 
 function inputValues(val) {
 	if (document.getElementById('adicionarComentario').value != '' ) {
@@ -53,11 +62,8 @@ function inputValues(val) {
 }
 
 function haveLike(params) {
-	console.log(data)
 	if(data['likeAt'] != undefined){
 	const result = data['likeAt'].filter(word => word == JSON.parse(localStorage.getItem('user')).email);
-	console.log('Result:',result);
-  console.log(result.length)
 	if(result.length != 0){
 		console.log('Entoru aqui', document.getElementById("buttonLike").style.backgroundColor)
 		document.getElementById("buttonLike").style.backgroundColor = "#B7006E"
