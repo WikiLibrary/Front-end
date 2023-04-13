@@ -83,7 +83,7 @@ function listPosts() {
             <div class="buttonPosts">
               <button><img src="./img/bookmark.png" label="bookmark"></button>
               <button><img src="./img/chat.png" label="bookmark"><p>Comentar</p></button>
-              ${likeButton(likeAt)}
+              ${likeButton(likeAt,r.val()[key], key)}
               ${deleteButton}
             </div>
             <div>
@@ -100,14 +100,71 @@ function listPosts() {
   });
 }
 
-function likeButton(params) {
+function getUser(params) {
+  var User = firebase.database().ref('user');
+  User.on('value', function (r) {
+    for (const key in r.val()) {
+      if (r.val()[key]['email'] == JSON.parse(localStorage.getItem('user')).email) {
+        user = r.val()
+        userKey = key
+      }
+    }
+  })
+}
+
+function getPost(keyCurrent) {
+  var Post = firebase.database().ref('postagens');
+  Post.on('value', function (r) {
+    for (const key in r.val()) {
+      if (key == keyCurrent) {
+        likePost(key, r.val()[key])
+        break;
+      }
+    }
+  })
+}
+
+let user = ''
+let userKey = ''
+getUser()
+
+async function likePost (key, data)  {
+  console.log('Foi até aqui no else')
+  let dataResult = {}
+  if(data['likeAt'] == undefined){
+    data['likeAt'] = []
+  }
+  const result = data['likeAt'].filter(word => word == JSON.parse(localStorage.getItem('user')).email);
+  let resultCurr = data['likeAt'].length
+  dataResult[resultCurr] = JSON.parse(localStorage.getItem('user')).email
+  let teste = dataResult
+  var updates = {};
+  if(result.length == 0){
+      updates['/postagens/' + key + '/likeAt/'] = teste;
+      firebase.database().ref().update(updates);
+  }else {
+    data['likeAt'].map((value, key) => {
+      console.log(data['likeAt'])
+      if(value == JSON.parse(localStorage.getItem('user')).email){
+        data['likeAt'].splice(key, 1); 
+        if(data['likeAt'].length == 0){
+          delete data['likeAt']
+        }
+        updates['/postagens/' + key] = data;
+      }
+      // return firebase.database().ref().update(updates);
+    }) 
+  }
+}
+
+
+function likeButton(params, values, key) {
   haveLike = []
   haveLike = params.filter(item => item != localStorage.getItem('user').email)
-  console.log(params)
   if (haveLike.length != 0) {
-    return `<button style="background-color: mediumvioletred;"><img src="./img/heart-white.png" label="heart"><p style="color: white;" >Curtido</p></button>`
+    return `<button style="background-color: mediumvioletred;" onclick="getPost('${key}')"><img src="./img/heart-white.png" label="heart"><p style="color: white;" >Curtido</p></button>`
   } else {
-    return `<button><img src="./img/heart.png" label="heart"><p>Curtir</p></button>`
+    return `<button onclick="getPost('${key}')"><img src="./img/heart.png" label="heart"><p>Curtir</p></button>`
   }
 }
 
