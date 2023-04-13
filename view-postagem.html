@@ -20,7 +20,7 @@
         <nav class="menu">
            <ul>
                 <li><a href="./home.html"><b>WikiLibrary</b></a></li>
-                <li><a href="./acervo.html">Acervo</a></li>
+                <!-- <li><a href="./acervo.html">Acervo</a></li> -->
                 <li><a href="./registro.html">Registros</a></li>
                 <li><a href="./bibliotecas.html">Bibliotecas</a></li>
                 <li><a href="./index.html">Forúm</a></li>
@@ -57,7 +57,7 @@
                         <button><img src="./img/chat.png" label="bookmark"><p>Comentar</p></button>
                       </div>
                       <div>
-                        <p>0 Comentarios</p>
+                        <p id="totalComments"></p>
                       </div>
                     </div>
                 </div>
@@ -66,7 +66,13 @@
                     <!-- <button style="padding-left: 20px; padding-right: 20px;">Salvar</button> -->
                 </div>
             </div>
-    </div>
+            <div class="new-post new-comment">
+                <input class="new-comment-input" placeholder="Adicionar um Novo Comentário" id="adicionarComentario"></input>
+                <button class="new-comment-button"><img class="new-comment-image" src="./img/add.svg" alt="" onclick="addComment()"></button>
+            </div>
+            <div id="commentsList">
+            </div>
+        </div>
     </section>
 </body>
 <script src="./js/view-postagem.js"></script>
