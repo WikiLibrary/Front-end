@@ -47,7 +47,7 @@ h1{
 
 .contentSection{
     background-color: white;
-    height: 100%;
+    max-height: 700PX;
     width: 60%;
     margin: 50px;
     background: rgba(255, 245, 245, 0.74);
@@ -236,8 +236,13 @@ section li{
     padding-right: 20px;
 }
 
+#userComment {
+    font-size: 15px;
+}
+
 .update-time {
-    padding-left: 20px;
+    font-size: 14px;
+    padding-left: 10px;
 }
 
 .user-role{

@@ -3,12 +3,11 @@ let data
 function setComments() {
   let html = '';
   let total ='';
-  if(data['comments'] !== undefined) {
+  if(data['comments'] !== undefined && data['comments'].length > 0) {
 	console.log(data);
     var params = data['comments'].filter(post => post);
     var countingComments = params.length;
     params.forEach(item => {
-      console.log('passou aqui');
       html += `<div class="comment-area">
           <div style="display: flex; flex-direction: row;">
             <img class="img-comment" src="${item.userImage}" alt="" id="img-postagem">   
@@ -28,8 +27,10 @@ function setComments() {
 
 function addComment(params) {
 let comments = {}
+let date =  new Date().toUTCString();
+slicedDate = date.split("T")[0]
 comments['content'] = document.getElementById('adicionarComentario').value
-comments['createdAt'] = new Date().toISOString().toString()
+comments['createdAt'] = date
 comments['email'] = JSON.parse(localStorage.getItem('user')).name
 comments['userEmail'] = JSON.parse(localStorage.getItem('user')).email
 comments['userImage'] = JSON.parse(localStorage.getItem('user')).picture
