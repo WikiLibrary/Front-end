@@ -1,6 +1,5 @@
 let data
 
-
 function setComments() {
   console.log('passou'); 
   let html = '';
@@ -22,12 +21,36 @@ function setComments() {
           <p style="margin-top: 20px;">${item.content}</p>
       </div>`
     })
-    total += `${countingComments}`
+    total += `${countingComments} comentários`
     $('#commentsList').html(html);
     $('#totalComments').html(total);
   }
 }
 
+
+function addComment(params) {
+let comments = {}
+comments['content'] = document.getElementById('adicionarComentario').value
+comments['createdAt'] = new Date().toISOString().toString()
+comments['email'] = JSON.parse(localStorage.getItem('user')).name
+comments['userEmail'] = JSON.parse(localStorage.getItem('user')).email
+comments['userImage'] = JSON.parse(localStorage.getItem('user')).picture
+comments['jobRole'] = 'Desenvolvedora Fullstack'
+
+console.log(comments)
+var Post = firebase.database().ref(data['comments']);
+Post.push(comments).then(function (data) {
+    console.log('deu certo', data);
+  }).catch(function (error) {
+    console.error(error);
+  })
+}
+
+function inputValues(val) {
+	if (document.getElementById('adicionarComentario').value != '' ) {
+		document.getElementById('buttonCadastro').disabled = false; 
+	}
+}
 
 function haveLike(params) {
 	console.log(data)
@@ -55,7 +78,7 @@ var parseQueryString = function(id) {
 			let entry = r.val();
 		data = entry
 		haveLike()
-    setComments()
+    	setComments()
 		console.log(data)
 		document.getElementById("title").innerHTML =  `${entry['title']}`
 		document.getElementById("user").innerHTML =  `<b>${entry['user']}</b>`
