@@ -19,10 +19,9 @@
         <nav class="menu">
            <ul>
                 <li><a href="./home.html"><b>WikiLibrary</b></a></li>
-                <!-- <li><a href="./acervo.html">Acervo</a></li> -->
                 <li><a href="./registro.html">Registros</a></li>
                 <li><a href="./bibliotecas.html">Bibliotecas</a></li>
-                <li><a href="./index.html">Forúm</a></li>
+                <li><a href="./index.html">Acervo</a></li>
            </ul> 
            <div class="button-menu">
                 <button onClick="loginPage()">Login</button>
@@ -43,8 +42,8 @@
                     <input id="biblioteca" type="email" onchange="viewInput(this.value)">
                 </div>
                 <div style="display: flex; flex-direction: column;">
-                    <label for="certificado">Certificado:</label>
-                    <input id="certificado" type="text" onchange="viewInput(this.value)">
+                    <label for="vinculo">Vínculo (Estadual, Municipal, Federal, Privado):</label>
+                    <input id="vinculo" type="text"  onchange="viewInput(this.value)">
                 </div>
                 <div style="display: flex; flex-direction: column;">
                     <label for="email">E-mail:</label>
@@ -57,10 +56,6 @@
                 <div style="display: flex; flex-direction: column;">
                     <label for="facebook">Facebook:</label>
                     <input id="facebook" type="text"  onchange="viewInput(this.value)">
-                </div>
-                <div style="display: flex; flex-direction: column;">
-                    <label for="vinculo">Vínculo (Estadual, Municipal, Federal, Privado):</label>
-                    <input id="vinculo" type="text"  onchange="viewInput(this.value)">
                 </div>
             </div>
             <div style="width: 30%;">
@@ -90,18 +85,6 @@
                 </div>
             </div>
             <div style="width: 30%;">
-                <div style="display: flex; flex-direction: column;">
-                    <label for="snbp">Tipologia (SNBP):</label>
-                    <input id="snbp" type="text" onchange="viewInput(this.value)">
-                </div>
-                <div style="display: flex; flex-direction: column;">
-                    <label for="tematica">Tipologia (Temática):</label>
-                    <input id="tematica" type="email" onchange="viewInput(this.value)">
-                </div>
-                <div style="display: flex; flex-direction: column;">
-                    <label for="tipologia">Tipologia da Pesquisa:</label>
-                    <input id="tipologia" type="text" onchange="viewInput(this.value)">
-                </div>
                 <div style="display: flex; flex-direction: column;">
                     <label for="twitter">Twitter:</label>
                     <input id="twitter" type="text"  onchange="viewInput(this.value)">
