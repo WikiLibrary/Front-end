@@ -1,5 +1,5 @@
 let id
-let data;
+let totalBiblioteca;
 let pageTotal;
 
 function uploadImage() {
@@ -18,12 +18,23 @@ function uploadImage() {
  })
  .catch(console.error);
  }
+ 
+function dataBiblioteca(data) {
+    var values = firebase.database().ref('bibliotecas/');
+    values.once('value', function (r) {
+        let dataInfo =  (r.val().length)
+        data = dataInfo
+        console.log('data: ', data)
+    })
+    return data;
+} 
 
 function addActivity() {
+    totalBiblioteca = dataBiblioteca();
+
     let entry = {};   
         entry['Ano de Fundação'] =  document.getElementById("anoFundacao").value
         entry['Biblioteca'] = document.getElementById("biblioteca").value
-        entry['Certificado'] = document.getElementById("certificado").value
         entry['E-mail'] = document.getElementById("email").value
         entry['Endereço'] = document.getElementById("endereco").value
         entry['Facebook'] = document.getElementById("facebook").value
@@ -33,23 +44,27 @@ function addActivity() {
         entry['Rede de bibliotecas'] = document.getElementById("redeBiblioteca").value
         entry['Site'] = document.getElementById("site").value
         entry['Telefone'] = document.getElementById("telefone").value
-        entry['Tipologia (SNBP)'] = document.getElementById("snbp").value
-        entry['Tipologia (Temática)'] = document.getElementById("tematica").value
-        entry['Tipologia da Pesquisa'] = document.getElementById("tipologia").value
         entry['Twitter'] = document.getElementById("twitter").value
         entry['Vínculo (Estadual, Municipal, Federal, Privado)'] = document.getElementById("vinculo").value
         entry['Mapa'] = document.getElementById("mapa").value
-        entry['Imagem'] = document.getElementById("image").src
-        
-        
-    var Entry = firebase.database().ref(`bibliotecas/${id}`);
-          
-    Entry.push(entry).then(function(data){
-        window.location.replace("./bibliotecas.html")
-    }).catch(function(error){
-        console.error(error);
-    })
+        // entry['Imagem'] = document.getElementById("image").src
+    
+    console.log('total', totalBiblioteca)
 
+    let index
+
+    if(totalBiblioteca == undefined){
+        index = 0
+    } else {
+        index = totalBiblioteca + 1
+    }
+        
+    console.log(index)
+
+    var updates = {};
+    updates['/bibliotecas/' + index + "/"] = entry;
+    console.log(updates)
+    firebase.database().ref().update(updates);
 }
 var Blog = firebase.database().ref('bibliotecas');
 Blog.on('value', function (r) {
