@@ -160,6 +160,7 @@ async function likePost (key, data)  {
 
 function likeButton(params, values, key) {
   haveLike = []
+  console.log(params)
   haveLike = params.filter(item => item != localStorage.getItem('user').email)
   if (haveLike.length != 0) {
     return `<button style="background-color: mediumvioletred;" onclick="getPost('${key}')"><img src="./img/heart-white.png" label="heart"><p style="color: white;" >Curtido</p></button>`

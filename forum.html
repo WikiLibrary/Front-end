@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/forum.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/jwt-decode/build/jwt-decode.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
+    <title>WikiLibrary</title>
+    <script src="./js/firebase.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="menu">
+           <ul>
+                <li><a href="./home.html"><b>WikiLibrary</b></a></li>
+                <!-- <li><a href="./acervo.html">Acervo</a></li> -->
+                <li><a href="./cadastrar-biblioteca.html">Cadastrar Biblioteca</a></li>
+                <li><a href="./bibliotecas.html">Bibliotecas</a></li>
+                <li><a href="./index.html">Acervo</a></li>
+           </ul> 
+           <div class="button-menu">
+                <button onClick="loginPage()">Login</button>
+                <button>Pt-BR</button>
+           </div>
+        </nav>
+    </header>
+    
+    
+    <section>
+        <div style="width: 100%; margin-bottom: 10px">
+            <div style="display: flex;" class="titlePrincipal">
+                <h1>Acervo</h1>
+                <button><p>Adicionar no fórum</p></button>
+            </div>
+            <div class="drop-box-iten">
+                <p>Tutoriais e documentos auxiliares</p>
+            </div>
+            <div id="listPosts">
+                <p>Carregando listagem....</p>
+            </div>
+        </div>
+        
+
+    
+
+    
+    </section>
+</body>
+<script src="./js/forum.js"></script>
+</html>
